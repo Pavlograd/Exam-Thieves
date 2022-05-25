@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a377b7bc8a99d9a9d9c4b2d7b5b5fee9, type: 3}
+  m_Name: Artiste
+  m_EditorClassIdentifier: 
+  nameCharacters: Artiste
+  descCharacters: Can drop a paint trap to make the guards slip
+  staminaRegenSpeed: 0.2
+  staminaBurnSpeed: 0.4
+  nameObjAnimation: teddy
+  _animator: {fileID: 9100000, guid: 898944de5f4d11064b799f640795b249, type: 2}
+  skinPlayer: {fileID: 4603771406130564304, guid: 869151d92c8a811d69ccc3ee4f69c762, type: 3}
+  playerImage: {fileID: 2294699779927090093, guid: 34550a06493191c12a0c034f33470b78, type: 3}
+  type: 0
+  powerImage: {fileID: 21300000, guid: 66acca4d2f75bd3629e95581afd37b3b, type: 3}

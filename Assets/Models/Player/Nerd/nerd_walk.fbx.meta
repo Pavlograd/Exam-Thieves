@@ -1,0 +1,3624 @@
+fileFormatVersion: 2
+guid: f4a29289f244d2deb8f97a8226937738
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: nerd_idle1(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: teddy
+      parentName: nerd_idle1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_geo
+      parentName: teddy
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nerd_hair
+      parentName: grp_teddy_geo
+      position: {x: 0.014399938, y: 1.6577587, z: 0.09379095}
+      rotation: {x: 0.00000008146036, y: 3.330669e-16, z: -1.110223e-16, w: 1}
+      scale: {x: 41.258537, y: 24.833004, z: 34.036488}
+    - name: nerd_glasses
+      parentName: grp_teddy_geo
+      position: {x: -0.0011289547, y: 1.6201315, z: 0.21781781}
+      rotation: {x: 2.7755576e-17, y: 2.7755578e-16, z: -1.3877789e-16, w: 1}
+      scale: {x: 13.407005, y: 13.407005, z: 13.407005}
+    - name: shirt1
+      parentName: grp_teddy_geo
+      position: {x: 0.0005859494, y: 1.443281, z: 0.04143815}
+      rotation: {x: -0.05307929, y: 0.030847099, z: -0.010944048, w: 0.9980537}
+      scale: {x: 0.8055849, y: 1, z: 0.6942869}
+    - name: geo_teddy_neck
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_arm_lft
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_arm_rgt
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_tronc
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_pelvis
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_forearm_lft
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_forearm_rgt
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_hand_rgt
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_hand_lft
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_toe_lft
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_toe_rgt
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_shin_rgt
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_shin_lft
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_foot_lft
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_foot_rgt
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_thigh_rgt
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_thigh_lft
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_head_geo
+      parentName: grp_teddy_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_head
+      parentName: grp_teddy_head_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_hear_lft
+      parentName: grp_teddy_head_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_hear_rgt
+      parentName: grp_teddy_head_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_eye_lft
+      parentName: grp_teddy_head_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_eye_rgt
+      parentName: grp_teddy_head_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_rig
+      parentName: teddy
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_joints
+      parentName: grp_teddy_rig
+      position: {x: -0.7164582, y: 1.2703968, z: 0}
+      rotation: {x: -0.93236405, y: -0.35880977, z: -0.04102904, w: -0.016417034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_joints_lft
+      parentName: grp_teddy_joints
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_ankle_lft
+      parentName: grp_teddy_joints_lft
+      position: {x: -0.06877118, y: 0.1041388, z: -0.03520302}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_ankle_lft
+      parentName: offset_skin_teddy_ankle_lft
+      position: {x: 2.220446e-16, y: 1.5987211e-16, z: 4.396483e-16}
+      rotation: {x: 0.21337639, y: 0.6741443, z: 0.21337639, w: 0.6741443}
+      scale: {x: 1.0000007, y: 1, z: 1.0000007}
+    - name: loc_teddy_foot_switchIkFk_lft
+      parentName: skin_teddy_ankle_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.21337639, y: -0.6741443, z: -0.21337639, w: 0.6741443}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_toe_lft
+      parentName: skin_teddy_ankle_lft
+      position: {x: -0.15154114, y: -3.5527136e-17, z: 1.6824447e-17}
+      rotation: {x: 0.000000014901159, y: 0.000000029802319, z: -0.19022527, w: 0.9817405}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000004}
+    - name: sk_teddy_toeEnd_lft
+      parentName: skin_teddy_toe_lft
+      position: {x: -0.07423114, y: -1.740092e-18, z: -7.60084e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_hand_lft
+      parentName: grp_teddy_joints_lft
+      position: {x: -0.63806736, y: 1.4325297, z: -0.023432104}
+      rotation: {x: 0, y: 0.010041366, z: -0, w: 0.9999496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_hand_lft
+      parentName: offset_skin_teddy_hand_lft
+      position: {x: 0.43473223, y: -0.465895, z: 0.06873314}
+      rotation: {x: -1.2143064e-17, y: -0.0000000027939677, z: 0.0000000027170843, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: sk_teddy_handEnd_lft
+      parentName: skin_teddy_hand_lft
+      position: {x: -0.036, y: 0, z: 1.1166067e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: loc_teddy_hand_switchIkFk_lft
+      parentName: skin_teddy_hand_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_shoulder_lft
+      parentName: grp_teddy_joints_lft
+      position: {x: -0.18066414, y: 1.4325297, z: -0.014635079}
+      rotation: {x: 0, y: -0.030337062, z: -0, w: 0.99953973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_shoulder_lft
+      parentName: offset_skin_teddy_shoulder_lft
+      position: {x: 0.053285286, y: -0.016772352, z: 0.03382113}
+      rotation: {x: 0.011342407, y: 0.014781678, z: 0.3143621, w: 0.9491203}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_forearm_lft
+      parentName: sk_teddy_shoulder_lft
+      position: {x: -0.22286785, y: 0, z: -2.6488236e-17}
+      rotation: {x: 0.0040717474, y: 0.040166423, z: 0.100772806, w: 0.99409}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_wrist_lft
+      parentName: sk_teddy_forearm_lft
+      position: {x: -0.234993, y: 0, z: -6.522366e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locVislink_skin_teddy_forearm_lft
+      parentName: sk_teddy_forearm_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_forearm_cls_bend_lft
+      parentName: sk_teddy_forearm_lft
+      position: {x: -0.1174965, y: 0, z: 2.2204459e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: loc_teddy_elbow_bend_lft
+      parentName: sk_teddy_forearm_lft
+      position: {x: 1.4210854e-16, y: -2.842171e-16, z: 2.2204459e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: loc_teddy_forearm_switchIkFk_lft
+      parentName: sk_teddy_forearm_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_forearmSpline_lft
+      parentName: sk_teddy_forearm_lft
+      position: {x: 0.0000000026976972, y: -0.000000037958316, z: 8.47794e-10}
+      rotation: {x: 0.048863668, y: -0.004953392, z: -0.6836968, w: 0.7281116}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999999}
+    - name: skin_teddy_forearmSpline_lft_01
+      parentName: skin_teddy_forearmSpline_lft
+      position: {x: -0.039165497, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0.000000013562385, w: 1}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1}
+    - name: skin_teddy_forearmSpline_lft_02
+      parentName: skin_teddy_forearmSpline_lft_01
+      position: {x: -0.039165497, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1}
+    - name: skin_teddy_forearmSpline_lft_03
+      parentName: skin_teddy_forearmSpline_lft_02
+      position: {x: -0.039165497, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1}
+    - name: skin_teddy_forearmSpline_lft_04
+      parentName: skin_teddy_forearmSpline_lft_03
+      position: {x: -0.039165497, y: 0, z: 0}
+      rotation: {x: 0.0000000037252903, y: 9.313226e-10, z: 1.7462298e-10, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    - name: skin_teddy_forearmSpline_lft_05
+      parentName: skin_teddy_forearmSpline_lft_04
+      position: {x: -0.039165497, y: 0, z: 0}
+      rotation: {x: -0, y: -0.0000000037252903, z: 1.0408341e-17, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: sk_teddy_forearmSplineEnd_lft
+      parentName: skin_teddy_forearmSpline_lft_05
+      position: {x: -0.039165497, y: 0, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_shoulder_cls_bend_lft
+      parentName: sk_teddy_shoulder_lft
+      position: {x: -0.11143392, y: -2.842171e-16, z: 1.9984014e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: loc_teddy_shoulder_switchIkFk_lft
+      parentName: sk_teddy_shoulder_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_shoulderSpline_lft
+      parentName: sk_teddy_shoulder_lft
+      position: {x: -0.000000004252679, y: 0.0000000060145635, z: 0.0000000010783505}
+      rotation: {x: -0.000000013818922, y: 0.000000008255819, z: -0.6087614, w: 0.7933533}
+      scale: {x: 1, y: 1.0000004, z: 1}
+    - name: skin_teddy_shoulderSpline_lft_01
+      parentName: skin_teddy_shoulderSpline_lft
+      position: {x: -0.037144642, y: 0, z: 0}
+      rotation: {x: 0.00000001565955, y: 0.0000000018626447, z: 2.772413e-18, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: skin_teddy_shoulderSpline_lft_02
+      parentName: skin_teddy_shoulderSpline_lft_01
+      position: {x: -0.037144642, y: 0, z: 0}
+      rotation: {x: 0.0000000010186465, y: -0.0000000018626451, z: 2.0755688e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_shoulderSpline_lft_03
+      parentName: skin_teddy_shoulderSpline_lft_02
+      position: {x: -0.037144642, y: 0, z: 0}
+      rotation: {x: 0.5505716, y: -0.31666633, z: 0.23849986, w: 0.7346504}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_shoulderSpline_lft_04
+      parentName: skin_teddy_shoulderSpline_lft_03
+      position: {x: -0.037144642, y: 0, z: 0}
+      rotation: {x: 0.000000004871139, y: 0.0000000018626451, z: -4.31869e-17, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: skin_teddy_shoulderSpline_lft_05
+      parentName: skin_teddy_shoulderSpline_lft_04
+      position: {x: -0.037144642, y: 0, z: 0}
+      rotation: {x: -7.839809e-10, y: -0, z: 5.1349073e-18, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: sk_teddy_shoulderSplineEnd_lft
+      parentName: skin_teddy_shoulderSpline_lft_05
+      position: {x: -0.037144642, y: 0, z: -2.6645352e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_thigh_lft
+      parentName: grp_teddy_joints_lft
+      position: {x: -0.06877118, y: 0.9488553, z: -0.016099874}
+      rotation: {x: 0.49412674, y: 0.5058051, z: 0.49412674, w: 0.5058051}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_thigh_lft
+      parentName: offset_skin_teddy_thigh_lft
+      position: {x: 2.842171e-16, y: 3.330669e-17, z: 6.217249e-17}
+      rotation: {x: -0.000000059604638, y: -0.8939594, z: -0.01681496, w: 0.44783235}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_shin_lft
+      parentName: sk_teddy_thigh_lft
+      position: {x: -0.35846165, y: -6.661338e-17, z: 8.881784e-18}
+      rotation: {x: -3.5057233e-30, y: -7.5702564e-29, z: 0.039883997, w: 0.99920434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_shinEnd_lft
+      parentName: sk_teddy_shin_lft
+      position: {x: -0.48712805, y: -2.0798531e-16, z: 1.6224625e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locVislink_skin_teddy_shin_lft
+      parentName: sk_teddy_shin_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_shin_cls_bend_lft
+      parentName: sk_teddy_shin_lft
+      position: {x: -0.24356402, y: -3.6415315e-16, z: 2.6645352e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: loc_teddy_knee_bend_lft
+      parentName: sk_teddy_shin_lft
+      position: {x: 2.1316282e-16, y: 5.3290704e-17, z: -1.5987211e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: loc_teddy_shin_switchIkFk_lft
+      parentName: sk_teddy_shin_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_shinSpline_lft
+      parentName: sk_teddy_shin_lft
+      position: {x: 0.000000011914019, y: -9.1571023e-10, z: -6.545506e-10}
+      rotation: {x: 0.000000028589971, y: -0.000000030967243, z: 0.00000015273689, w: 1}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000005}
+    - name: skin_teddy_shinSpline_lft_01
+      parentName: skin_teddy_shinSpline_lft
+      position: {x: -0.12178201, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: 8.8535256e-16, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: skin_teddy_shinSpline_lft_02
+      parentName: skin_teddy_shinSpline_lft_01
+      position: {x: -0.12178201, y: 0, z: 0}
+      rotation: {x: 0.21313654, y: 0.6970472, z: 0.5787113, w: 0.365775}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: skin_teddy_shinSpline_lft_03
+      parentName: skin_teddy_shinSpline_lft_02
+      position: {x: -0.12178201, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: sk_teddy_shinSplineEnd_lft
+      parentName: skin_teddy_shinSpline_lft_03
+      position: {x: -0.12178201, y: -2.0428103e-16, z: 1.687539e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_thigh_cls_bend_lft
+      parentName: sk_teddy_thigh_lft
+      position: {x: -0.17923082, y: 1.2656542e-16, z: -1.9539925e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: loc_teddy_thigh_switchIkFk_lft
+      parentName: sk_teddy_thigh_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_thighSpline_lft
+      parentName: sk_teddy_thigh_lft
+      position: {x: -0.000000020930568, y: -4.0940143e-10, z: -6.545506e-10}
+      rotation: {x: -0.000000029802322, y: -0.000000029802322, z: 0.000000059604645, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: skin_teddy_thighSpline_lft_01
+      parentName: skin_teddy_thighSpline_lft
+      position: {x: -0.08961541, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -8.881784e-16, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: skin_teddy_thighSpline_lft_02
+      parentName: skin_teddy_thighSpline_lft_01
+      position: {x: -0.08961541, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: skin_teddy_thighSpline_lft_03
+      parentName: skin_teddy_thighSpline_lft_02
+      position: {x: -0.08961541, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: sk_teddy_thighSplineEnd_lft
+      parentName: skin_teddy_thighSpline_lft_03
+      position: {x: -0.08961541, y: -6.7723606e-17, z: 2.6645352e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_sk_teddy_shoulderNoneroll_lft
+      parentName: grp_teddy_joints_lft
+      position: {x: -0.12952805, y: 1.4157574, z: 0.022355344}
+      rotation: {x: 0.17473519, y: -0.012992032, z: -0.040912174, w: 0.98367935}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_shoulderNoneroll_lft
+      parentName: offset_sk_teddy_shoulderNoneroll_lft
+      position: {x: -7.105427e-17, y: 2.842171e-16, z: 8.881784e-18}
+      rotation: {x: 0.0000000012769305, y: 0.21300481, z: 0.605732, w: 0.7666275}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_shoulderNonerollEnd_lft
+      parentName: sk_teddy_shoulderNoneroll_lft
+      position: {x: -0.22286785, y: 0, z: -2.6645352e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_sk_teddy_thighNoneroll_lft
+      parentName: grp_teddy_joints_lft
+      position: {x: -0.06877118, y: 0.9488553, z: -0.016099874}
+      rotation: {x: 0.49412674, y: 0.5058051, z: 0.49412674, w: 0.5058051}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_thighNoneroll_lft
+      parentName: offset_sk_teddy_thighNoneroll_lft
+      position: {x: -0, y: 2.220446e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_thighNonerollEnd_lft
+      parentName: sk_teddy_thighNoneroll_lft
+      position: {x: -0.35846165, y: -6.661338e-17, z: 3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_finger_lft
+      parentName: grp_teddy_joints_lft
+      position: {x: -0.63806736, y: 1.4325297, z: -0.023432104}
+      rotation: {x: 0, y: 0.010041366, z: -0, w: 0.9999496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_index_lft_01
+      parentName: grp_teddy_finger_lft
+      position: {x: -0.041372966, y: -2.842171e-16, z: 0.031083968}
+      rotation: {x: 0, y: 0.05451315, z: -0, w: 0.99851304}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_index_lft_01
+      parentName: offset_skin_teddy_index_lft_01
+      position: {x: 0.46095812, y: -0.50464416, z: 0.12255621}
+      rotation: {x: -0.000000001895969, y: 0.000000007450581, z: 0.000000004446138, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: skin_teddy_index_lft_02
+      parentName: skin_teddy_index_lft_01
+      position: {x: -0.08394117, y: -1.4210854e-16, z: 3.5527136e-17}
+      rotation: {x: -1.3353829e-10, y: -0.000000014901161, z: -0.000000007718989, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: skin_teddy_index_lft_03
+      parentName: skin_teddy_index_lft_02
+      position: {x: -0.04842495, y: -4.8849814e-16, z: 7.105427e-17}
+      rotation: {x: 0.0000000035595957, y: -0, z: 3.0875924e-10, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: skin_teddy_index_lft_04
+      parentName: skin_teddy_index_lft_03
+      position: {x: -0.043721803, y: -7.105427e-17, z: 7.105427e-17}
+      rotation: {x: -0.0000000043357398, y: -1.762693e-16, z: -0.000000049895554, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: sk_teddy_index_lft_05
+      parentName: skin_teddy_index_lft_04
+      position: {x: -0.045775894, y: 2.842171e-16, z: -6.217249e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_middle_lft_01
+      parentName: grp_teddy_finger_lft
+      position: {x: -0.043013766, y: -2.842171e-16, z: -0.0009971652}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_middle_lft_01
+      parentName: offset_skin_teddy_middle_lft_01
+      position: {x: 0.47500664, y: -0.508777, z: 0.07192222}
+      rotation: {x: -1.2143064e-17, y: -0.0000000027939677, z: 0.0000000027170843, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: skin_teddy_middle_lft_02
+      parentName: skin_teddy_middle_lft_01
+      position: {x: -0.08296479, y: -2.842171e-16, z: -3.5527136e-17}
+      rotation: {x: 0.000000001763608, y: 0.000000004656613, z: -0.0000000076572375, w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1}
+    - name: skin_teddy_middle_lft_03
+      parentName: skin_teddy_middle_lft_02
+      position: {x: -0.054011185, y: 3.952394e-16, z: 0}
+      rotation: {x: -0.0000000031985516, y: -9.313226e-10, z: -0.0000000011385506, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: skin_teddy_middle_lft_04
+      parentName: skin_teddy_middle_lft_03
+      position: {x: -0.048133697, y: 4.2632563e-16, z: -1.7763568e-17}
+      rotation: {x: 0.0000000032940384, y: 9.313224e-10, z: 0.000000050725333, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: sk_teddy_middle_lft_05
+      parentName: skin_teddy_middle_lft_04
+      position: {x: -0.04954056, y: 0, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_ring_lft_01
+      parentName: grp_teddy_finger_lft
+      position: {x: -0.040101834, y: -2.842171e-16, z: -0.03576705}
+      rotation: {x: 0, y: -0.049092624, z: -0, w: 0.99879426}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_ring_lft_01
+      parentName: offset_skin_teddy_ring_lft_01
+      position: {x: 0.47911853, y: -0.5085889, z: 0.025009293}
+      rotation: {x: -0.0000000019603899, y: 0.00000001117587, z: -0.0000000042608805, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: skin_teddy_ring_lft_02
+      parentName: skin_teddy_ring_lft_01
+      position: {x: -0.08474602, y: -3.907985e-16, z: -3.8857805e-17}
+      rotation: {x: 0.0000000044703152, y: -0.0000000074505797, z: 0.000000016364254, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: skin_teddy_ring_lft_03
+      parentName: skin_teddy_ring_lft_02
+      position: {x: -0.050500173, y: -1.6431301e-16, z: 2.220446e-18}
+      rotation: {x: -0.0000000023010962, y: -0.0000000037252903, z: 0.000000001289072, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: skin_teddy_ring_lft_04
+      parentName: skin_teddy_ring_lft_03
+      position: {x: -0.044231232, y: -2.1316282e-16, z: -6.217249e-17}
+      rotation: {x: -1.8954749e-10, y: -0, z: -0.000000046275332, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: sk_teddy_ring_lft_05
+      parentName: skin_teddy_ring_lft_04
+      position: {x: -0.044743117, y: -2.842171e-16, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_thumb_lft_01
+      parentName: grp_teddy_finger_lft
+      position: {x: -0.033594567, y: -0.012326351, z: 0.03936722}
+      rotation: {x: 0.46596527, y: 0.3878843, z: -0.017133264, w: 0.7950652}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_thumb_lft_01
+      parentName: offset_skin_teddy_thumb_lft_01
+      position: {x: 0.12509567, y: -0.036597617, z: 0.67061615}
+      rotation: {x: -0, y: -0.000000029802319, z: -0.000000029802319, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: skin_teddy_thumb_lft_02
+      parentName: skin_teddy_thumb_lft_01
+      position: {x: -0.07648591, y: 9.237055e-16, z: -4.973799e-16}
+      rotation: {x: -0.000000119209275, y: 0.000000059604634, z: 0.000000029802322, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: skin_teddy_thumb_lft_03
+      parentName: skin_teddy_thumb_lft_02
+      position: {x: -0.03606751, y: -2.2026825e-15, z: 5.684342e-16}
+      rotation: {x: -0, y: -0.000000059604634, z: -0.000000029802326, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999994}
+    - name: sk_teddy_thumb_lft_04
+      parentName: skin_teddy_thumb_lft_03
+      position: {x: -0.033166166, y: 1.1311745e-15, z: -3.8095913e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_joints_rgt
+      parentName: grp_teddy_joints
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.009364881, y: -0.00735104, z: -0.7044181, w: 0.70968544}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_ankle_rgt
+      parentName: grp_teddy_joints_rgt
+      position: {x: 0.0687712, y: 0.104139, z: -0.035203}
+      rotation: {x: 0.6741443, y: -0.21337639, z: 0.6741443, w: -0.21337639}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_ankle_rgt
+      parentName: offset_skin_teddy_ankle_rgt
+      position: {x: 0.00000020063767, y: 0.00000032988248, z: -0.000000024290902}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000007, y: 1.0000012, z: 1.0000007}
+    - name: loc_teddy_foot_switchIkFk_rgt
+      parentName: skin_teddy_ankle_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.6741443, y: -0.21337639, z: 0.6741443, w: 0.21337639}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_toe_rgt
+      parentName: skin_teddy_ankle_rgt
+      position: {x: 0.15154125, y: 0.0000001302786, z: 0}
+      rotation: {x: -0.000000014901161, y: -0.000000029802322, z: -0.1902253, w: 0.98174053}
+      scale: {x: 1.0000005, y: 1.0000011, z: 1.0000005}
+    - name: sk_teddy_toeEnd_rgt
+      parentName: skin_teddy_toe_rgt
+      position: {x: 0.07423094, y: 0.00000007493494, z: 2.6645352e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_hand_rgt
+      parentName: grp_teddy_joints_rgt
+      position: {x: 0.638067, y: 1.43253, z: -0.0234321}
+      rotation: {x: 0.9999496, y: -6.148563e-19, z: 0.010041366, w: 6.122925e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_hand_rgt
+      parentName: offset_skin_teddy_hand_rgt
+      position: {x: -0.43584117, y: 0.46661022, z: -0.05090188}
+      rotation: {x: -0.0000000058253016, y: 1.9910455e-25, z: -0.000000003251624, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: sk_teddy_handEnd_rgt
+      parentName: skin_teddy_hand_rgt
+      position: {x: 0.03600026, y: 2.842171e-16, z: 0.000000047121716}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: loc_teddy_hand_switchIkFk_rgt
+      parentName: skin_teddy_hand_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_shoulder_rgt
+      parentName: grp_teddy_joints_rgt
+      position: {x: 0.180664, y: 1.43253, z: -0.0146351}
+      rotation: {x: 0.99953973, y: 2.2602872e-10, z: -0.030337062, w: 0.0000000074471513}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_shoulder_rgt
+      parentName: offset_skin_teddy_shoulder_rgt
+      position: {x: -0.053285334, y: 0.016772347, z: -0.0338212}
+      rotation: {x: 0.046102945, y: 0.06008006, z: -0.36609367, w: 0.9274915}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_forearm_rgt
+      parentName: sk_teddy_shoulder_rgt
+      position: {x: 0.22286823, y: 5.684342e-16, z: -0.00000001001162}
+      rotation: {x: -0.0014000414, y: 0.001377981, z: 0.10056223, w: 0.99492884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_wrist_rgt
+      parentName: sk_teddy_forearm_rgt
+      position: {x: 0.23499238, y: 2.8250893e-10, z: -0.00000004868173}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locVislink_skin_teddy_forearm_rgt
+      parentName: sk_teddy_forearm_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_forearm_cls_bend_rgt
+      parentName: sk_teddy_forearm_rgt
+      position: {x: 0.11749619, y: -5.4933763e-10, z: 0.000000012583789}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: loc_teddy_elbow_bend_rgt
+      parentName: sk_teddy_forearm_rgt
+      position: {x: -0.0000000012927351, y: -3.6584508e-10, z: -1.04637486e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: loc_teddy_forearm_switchIkFk_rgt
+      parentName: sk_teddy_forearm_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_forearmSpline_rgt
+      parentName: sk_teddy_forearm_rgt
+      position: {x: 0.0000000054382614, y: -0.00000005999, z: 7.480363e-11}
+      rotation: {x: 0.029621407, y: 0.029154783, z: -0.68481815, w: 0.7275278}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.9999999}
+    - name: skin_teddy_forearmSpline_rgt_01
+      parentName: skin_teddy_forearmSpline_rgt
+      position: {x: 0.039164897, y: 4.7083972e-11, z: -0.0000000014911764}
+      rotation: {x: 0.0000000037252903, y: -0.0000010225922, z: -0.0000000017462298, w: 1}
+      scale: {x: 0.99999964, y: 1.0000005, z: 1.0000005}
+    - name: skin_teddy_forearmSpline_rgt_02
+      parentName: skin_teddy_forearmSpline_rgt_01
+      position: {x: 0.0391659, y: 4.7084822e-11, z: -0.00000008138929}
+      rotation: {x: 0.000000005587932, y: 0.0000014249235, z: -6.98503e-10, w: 1}
+      scale: {x: 0.9999997, y: 0.99999994, z: 1.0000002}
+    - name: skin_teddy_forearmSpline_rgt_03
+      parentName: skin_teddy_forearmSpline_rgt_02
+      position: {x: 0.039165895, y: 4.7085676e-11, z: 0.000000018590542}
+      rotation: {x: -0, y: -0, z: -2.4281046e-17, w: 1}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1.0000004}
+    - name: skin_teddy_forearmSpline_rgt_04
+      parentName: skin_teddy_forearmSpline_rgt_03
+      position: {x: 0.039164897, y: 4.7084822e-11, z: -0.0000000014911764}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1.0000004}
+    - name: skin_teddy_forearmSpline_rgt_05
+      parentName: skin_teddy_forearmSpline_rgt_04
+      position: {x: 0.039165895, y: 4.7085676e-11, z: 0.000000018590542}
+      rotation: {x: -0.0000000014901161, y: -1.7914306e-18, z: 5.673517e-17, w: 1}
+      scale: {x: 0.9999996, y: 1, z: 1}
+    - name: sk_teddy_forearmSplineEnd_rgt
+      parentName: skin_teddy_forearmSpline_rgt_05
+      position: {x: 0.039164897, y: 4.7084257e-11, z: -0.0000000014911764}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_shoulder_cls_bend_rgt
+      parentName: sk_teddy_shoulder_rgt
+      position: {x: 0.11143412, y: -2.6495853e-10, z: 0.00000012751167}
+      rotation: {x: 0.000000010536712, y: -0.000000435588, z: 4.5896654e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: loc_teddy_shoulder_switchIkFk_rgt
+      parentName: sk_teddy_shoulder_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_shoulderSpline_rgt
+      parentName: sk_teddy_shoulder_rgt
+      position: {x: -0.00000009244112, y: -0.000000034998482, z: -0.0000000013144672}
+      rotation: {x: -0.00000027267163, y: -0.0000003425077, z: -0.6087614, w: 0.7933533}
+      scale: {x: 1.0000005, y: 1.0000008, z: 1.0000002}
+    - name: skin_teddy_shoulderSpline_rgt_01
+      parentName: skin_teddy_shoulderSpline_rgt
+      position: {x: 0.03714437, y: -2.842171e-16, z: 0.000000035182783}
+      rotation: {x: -0.000000117364635, y: 0.006987808, z: -0.07892153, w: 0.99685633}
+      scale: {x: 1.0000005, y: 1, z: 1.0000002}
+    - name: skin_teddy_shoulderSpline_rgt_02
+      parentName: skin_teddy_shoulderSpline_rgt_01
+      position: {x: 0.037145365, y: -5.684342e-16, z: -0.00000012527934}
+      rotation: {x: -0.00000001473083, y: 0.0000025741754, z: 5.047734e-13, w: 1}
+      scale: {x: 1.0000005, y: 1, z: 0.99999994}
+    - name: skin_teddy_shoulderSpline_rgt_03
+      parentName: skin_teddy_shoulderSpline_rgt_02
+      position: {x: 0.03714437, y: -2.842171e-16, z: 0.000000035182783}
+      rotation: {x: 0.0000000024767814, y: -0.0000000055879354, z: 8.0725967e-16, w: 1}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000001}
+    - name: skin_teddy_shoulderSpline_rgt_04
+      parentName: skin_teddy_shoulderSpline_rgt_03
+      position: {x: 0.03714437, y: 8.5265126e-16, z: 0.000000035182783}
+      rotation: {x: 0.0000000018649473, y: 0.00000048056245, z: 9.6625595e-14, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 0.99999994}
+    - name: skin_teddy_shoulderSpline_rgt_05
+      parentName: skin_teddy_shoulderSpline_rgt_04
+      position: {x: 0.03714437, y: 0, z: 0.000000035182783}
+      rotation: {x: 8.0405016e-10, y: -0.00000074133277, z: -1.4444457e-13, w: 1}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000001}
+    - name: sk_teddy_shoulderSplineEnd_rgt
+      parentName: skin_teddy_shoulderSpline_rgt_05
+      position: {x: 0.03714537, y: 2.842171e-16, z: -0.000000025463411}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_thigh_rgt
+      parentName: grp_teddy_joints_rgt
+      position: {x: 0.0687712, y: 0.948855, z: -0.0160999}
+      rotation: {x: 0.5058051, y: -0.49412674, z: 0.5058051, w: -0.49412674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_thigh_rgt
+      parentName: offset_skin_teddy_thigh_rgt
+      position: {x: -0, y: 1.2212453e-17, z: 1.7763568e-17}
+      rotation: {x: 0.00416252, y: -0.20570888, z: 0.033807993, w: 0.9780202}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_shin_rgt
+      parentName: sk_teddy_thigh_rgt
+      position: {x: 0.35846177, y: -0.000000027200505, z: -9.7699626e-17}
+      rotation: {x: -2.451411e-21, y: 1.8592754e-20, z: 0.0398723, w: 0.9992048}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_shinEnd_rgt
+      parentName: sk_teddy_shin_rgt
+      position: {x: 0.48712745, y: 0.000000018178737, z: -7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locVislink_skin_teddy_shin_rgt
+      parentName: sk_teddy_shin_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_shin_cls_bend_rgt
+      parentName: sk_teddy_shin_rgt
+      position: {x: 0.24356373, y: 0.00000013175094, z: -4.4408918e-17}
+      rotation: {x: 0, y: 0, z: 0.00000005268356, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: loc_teddy_knee_bend_rgt
+      parentName: sk_teddy_shin_rgt
+      position: {x: -0, y: -2.1316282e-16, z: -4.4408918e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: loc_teddy_shin_switchIkFk_rgt
+      parentName: sk_teddy_shin_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_shinSpline_rgt
+      parentName: sk_teddy_shin_rgt
+      position: {x: 0.0000003973631, y: 0.0000048317193, z: -0.000000005056511}
+      rotation: {x: -0.00000010747644, y: -0.00000007834044, z: 0.000004895031, w: -1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_shinSpline_rgt_01
+      parentName: skin_teddy_shinSpline_rgt
+      position: {x: 0.12178186, y: 0.00000006195315, z: -1.7763568e-17}
+      rotation: {x: 0.000000046175316, y: -0.11795122, z: -0.0026721426, w: 0.9930158}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: skin_teddy_shinSpline_rgt_02
+      parentName: skin_teddy_shinSpline_rgt_01
+      position: {x: 0.12178185, y: -0.000000047871744, z: -3.5527136e-17}
+      rotation: {x: 0.000000030967048, y: 0.000000028590346, z: -0.00000066310116, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_shinSpline_rgt_03
+      parentName: skin_teddy_shinSpline_rgt_02
+      position: {x: 0.12178186, y: 0.000000051969067, z: 0}
+      rotation: {x: 0.00000008814749, y: -0.000000033343643, z: 0.0000003054733, w: 1}
+      scale: {x: 0.99999976, y: 0.9999998, z: 1}
+    - name: sk_teddy_shinSplineEnd_rgt
+      parentName: skin_teddy_shinSpline_rgt_03
+      position: {x: 0.12178185, y: -0.000000047871744, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_thigh_cls_bend_rgt
+      parentName: sk_teddy_thigh_rgt
+      position: {x: 0.17923088, y: -0.000000022169344, z: -1.3322676e-16}
+      rotation: {x: -0.00000007598131, y: -5.7731597e-15, z: 0.00000007598131, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: loc_teddy_thigh_switchIkFk_rgt
+      parentName: sk_teddy_thigh_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_thighSpline_rgt
+      parentName: sk_teddy_thigh_rgt
+      position: {x: 0.000000018915907, y: 4.4916515e-10, z: -0.000000008236449}
+      rotation: {x: 0.000006973726, y: -0.000000024215087, z: 0.0000068322784, w: 1}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000002}
+    - name: skin_teddy_thighSpline_rgt_01
+      parentName: skin_teddy_thighSpline_rgt
+      position: {x: 0.08961544, y: -0.00000002929399, z: -1.7763568e-17}
+      rotation: {x: -0.000009611249, y: 0.000000015031675, z: -0.000000014901096, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: skin_teddy_thighSpline_rgt_02
+      parentName: skin_teddy_thighSpline_rgt_01
+      position: {x: 0.08961544, y: -0.00000002929399, z: -8.881784e-18}
+      rotation: {x: 0.0000072568664, y: 0.00000005950688, z: -0.00000025331946, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_thighSpline_rgt_03
+      parentName: skin_teddy_thighSpline_rgt_02
+      position: {x: 0.08961544, y: 0.000000030689645, z: -1.7763568e-17}
+      rotation: {x: -0.000008016826, y: -0.000000074398365, z: 0.00000014900955, w: 1}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
+    - name: sk_teddy_thighSplineEnd_rgt
+      parentName: skin_teddy_thighSpline_rgt_03
+      position: {x: 0.08961544, y: 6.978276e-10, z: -2.6645352e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_sk_teddy_shoulderNoneroll_rgt
+      parentName: grp_teddy_joints_rgt
+      position: {x: 0.12952787, y: 1.4157575, z: 0.022355398}
+      rotation: {x: 0.98367935, y: 0.040912174, z: -0.012992032, w: -0.17473519}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_shoulderNoneroll_rgt
+      parentName: offset_sk_teddy_shoulderNoneroll_rgt
+      position: {x: 7.105427e-17, y: -5.684342e-16, z: -6.661338e-17}
+      rotation: {x: 0.000000036692217, y: 0.21300484, z: 0.60573196, w: 0.7666275}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_shoulderNonerollEnd_rgt
+      parentName: sk_teddy_shoulderNoneroll_rgt
+      position: {x: 0.22286823, y: 0, z: -0.00000001001162}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_sk_teddy_thighNoneroll_rgt
+      parentName: grp_teddy_joints_rgt
+      position: {x: 0.0687712, y: 0.948855, z: -0.0160999}
+      rotation: {x: 0.5058051, y: -0.49412674, z: 0.5058051, w: -0.49412674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_thighNoneroll_rgt
+      parentName: offset_sk_teddy_thighNoneroll_rgt
+      position: {x: 1.4210854e-16, y: 3.330669e-18, z: -8.881784e-18}
+      rotation: {x: -1.10834e-22, y: -2.3526264e-14, z: 0.0000067575907, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_thighNonerollEnd_rgt
+      parentName: sk_teddy_thighNoneroll_rgt
+      position: {x: 0.35846177, y: -0.000000027200505, z: -8.8817837e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_finger_rgt
+      parentName: grp_teddy_joints_rgt
+      position: {x: 0.638067, y: 1.43253, z: -0.0234321}
+      rotation: {x: 0.32152605, y: 0.84983164, z: -0.32390282, w: 0.2636173}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_index_rgt_01
+      parentName: grp_teddy_finger_rgt
+      position: {x: 0.041373562, y: 5.684342e-16, z: -0.031083954}
+      rotation: {x: 0, y: 0.05451315, z: -0, w: 0.99851304}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_index_rgt_01
+      parentName: offset_skin_teddy_index_rgt_01
+      position: {x: -0.4638107, y: 0.50780976, z: -0.101815395}
+      rotation: {x: 1.3521687e-10, y: -0, z: -0.0000000044461372, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: skin_teddy_index_rgt_02
+      parentName: skin_teddy_index_rgt_01
+      position: {x: 0.08394122, y: 0, z: 0.000000055517887}
+      rotation: {x: 0.0000000018661415, y: 1.1119388e-17, z: 0.000000020872147, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: skin_teddy_index_rgt_03
+      parentName: skin_teddy_index_rgt_02
+      position: {x: 0.04842439, y: 5.3290704e-17, z: -0.00000011712029}
+      rotation: {x: -0.000000001167483, y: -7.332479e-18, z: -0.000000013245786, w: 1}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000006}
+    - name: skin_teddy_index_rgt_04
+      parentName: skin_teddy_index_rgt_03
+      position: {x: 0.043722205, y: -3.1974422e-16, z: 0.000000020750763}
+      rotation: {x: -0.000000004475781, y: 0.000000007450581, z: -0.000000020964777, w: 1}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000007}
+    - name: sk_teddy_index_rgt_05
+      parentName: skin_teddy_index_rgt_04
+      position: {x: 0.045775313, y: 0, z: -0.00000002981385}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_middle_rgt_01
+      parentName: grp_teddy_finger_rgt
+      position: {x: 0.043013647, y: 5.684342e-16, z: 0.0009971891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_middle_rgt_01
+      parentName: offset_skin_teddy_middle_rgt_01
+      position: {x: -0.47634178, y: 0.50954854, z: -0.05082569}
+      rotation: {x: -0.0000000058253016, y: 1.9910455e-25, z: -0.000000003251624, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: skin_teddy_middle_rgt_02
+      parentName: skin_teddy_middle_rgt_01
+      position: {x: 0.082965724, y: -5.684342e-16, z: -0.000000005436412}
+      rotation: {x: 0.0000000039119534, y: 9.313225e-10, z: 0.000000011279372, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: skin_teddy_middle_rgt_03
+      parentName: skin_teddy_middle_rgt_02
+      position: {x: 0.05401089, y: -6.128431e-16, z: 0.000000031591046}
+      rotation: {x: 0.000000004091765, y: -9.313226e-10, z: -0.000000011238847, w: 1}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000007}
+    - name: skin_teddy_middle_rgt_04
+      parentName: skin_teddy_middle_rgt_03
+      position: {x: 0.048133705, y: -7.105427e-17, z: 0.000000007609471}
+      rotation: {x: -0.000000006650578, y: 0.000000004656613, z: -3.0875927e-10, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: sk_teddy_middle_rgt_05
+      parentName: skin_teddy_middle_rgt_04
+      position: {x: 0.04953999, y: 0, z: -0.000000051785477}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_ring_rgt_01
+      parentName: grp_teddy_finger_rgt
+      position: {x: 0.040101822, y: 5.684342e-16, z: 0.035767026}
+      rotation: {x: 0, y: -0.049092624, z: -0, w: 0.99879426}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_ring_rgt_01
+      parentName: offset_skin_teddy_ring_rgt_01
+      position: {x: -0.47919115, y: 0.50675225, z: -0.0039776075}
+      rotation: {x: -0.000000007986176, y: -0.000000007450581, z: 0.0000000039521213, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_ring_rgt_02
+      parentName: skin_teddy_ring_rgt_01
+      position: {x: 0.08474661, y: -8.5265126e-16, z: -0.0000000031169458}
+      rotation: {x: 0.000000004892712, y: 0.000000007450581, z: -0.0000000037051135, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: skin_teddy_ring_rgt_03
+      parentName: skin_teddy_ring_rgt_02
+      position: {x: 0.050500095, y: -5.4178885e-16, z: -0.000000046911687}
+      rotation: {x: -0.0000000036972303, y: -0, z: -0.00000002494777, w: 1}
+      scale: {x: 1.0000004, y: 1, z: 1.0000002}
+    - name: skin_teddy_ring_rgt_04
+      parentName: skin_teddy_ring_rgt_03
+      position: {x: 0.044230975, y: -7.81597e-16, z: 0.000000034697962}
+      rotation: {x: 0.000000005865161, y: 5.3171792e-17, z: 0.000000025194778, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000005}
+    - name: sk_teddy_ring_rgt_05
+      parentName: skin_teddy_ring_rgt_04
+      position: {x: 0.044743538, y: 0, z: 0.000000022873328}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_thumb_rgt_01
+      parentName: grp_teddy_finger_rgt
+      position: {x: 0.033595335, y: 0.01233, z: -0.039367188}
+      rotation: {x: 0.46596527, y: 0.3878843, z: -0.017133264, w: 0.7950652}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_thumb_rgt_01
+      parentName: offset_skin_teddy_thumb_rgt_01
+      position: {x: -0.13678922, y: 0.05321445, z: -0.6683284}
+      rotation: {x: -0.000000089406946, y: -0.000000029802315, z: -0.000000014901158, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: skin_teddy_thumb_rgt_02
+      parentName: skin_teddy_thumb_rgt_01
+      position: {x: 0.0764844, y: -0.0000041587555, z: -0.00000009572336}
+      rotation: {x: 0.00000014901158, y: -3.5527137e-15, z: -0.000000014901167, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: skin_teddy_thumb_rgt_03
+      parentName: skin_teddy_thumb_rgt_02
+      position: {x: 0.036069147, y: 0.0000046203386, z: 0.00000009349458}
+      rotation: {x: -0.00000008940696, y: 0.000000029802319, z: 0.000000014901161, w: 1}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: sk_teddy_thumb_rgt_04
+      parentName: skin_teddy_thumb_rgt_03
+      position: {x: 0.03316408, y: -0.000004949346, z: -0.0000005600969}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_bodySpline
+      parentName: grp_teddy_joints
+      position: {x: -0, y: 1.0200988, z: -0.016099874}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_bodySpline
+      parentName: offset_skin_teddy_bodySpline
+      position: {x: -5.443569e-18, y: 0.000000031271384, z: 7.9544135e-11}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1.0033686, y: 1, z: 1}
+    - name: skin_teddy_bodySpline_01
+      parentName: sk_teddy_bodySpline
+      position: {x: -0.049031403, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0033686, y: 1, z: 1}
+    - name: skin_teddy_bodySpline_02
+      parentName: skin_teddy_bodySpline_01
+      position: {x: -0.049031403, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0033683, y: 1.0000005, z: 1}
+    - name: skin_teddy_bodySpline_03
+      parentName: skin_teddy_bodySpline_02
+      position: {x: -0.049031403, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0033503, y: 1.0000186, z: 1}
+    - name: skin_teddy_bodySpline_04
+      parentName: skin_teddy_bodySpline_03
+      position: {x: -0.049031403, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.003358, y: 1.0000108, z: 1}
+    - name: skin_teddy_bodySpline_05
+      parentName: skin_teddy_bodySpline_04
+      position: {x: -0.049031403, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: -1}
+      scale: {x: 1.002595, y: 1.0007848, z: 1.0000001}
+    - name: sk_teddy_bodySplineEnd
+      parentName: skin_teddy_bodySpline_05
+      position: {x: -0.049031403, y: -2.8865798e-17, z: -9.860761e-33}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0033686, y: 1, z: 1}
+    - name: offset_skin_teddy_chest
+      parentName: grp_teddy_joints
+      position: {x: -0, y: 1.3142872, z: -0.016099874}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_chest
+      parentName: offset_skin_teddy_chest
+      position: {x: 3.4512665e-33, y: 0, z: -3.330669e-17}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: -0.5}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.708}
+    - name: sk_teddy_neck
+      parentName: skin_teddy_chest
+      position: {x: -0.14705974, y: 1.4210854e-16, z: -1.4847334e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_clavicle_rgt
+      parentName: skin_teddy_chest
+      position: {x: -0.08338272, y: -0.00000002613925, z: -0.0537998}
+      rotation: {x: -0.63600856, y: -0.0025517265, z: 0.77167165, w: 0.0030959467}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_clavicle_rgt
+      parentName: offset_skin_teddy_clavicle_rgt
+      position: {x: -7.105427e-17, y: 0, z: 2.842171e-16}
+      rotation: {x: -0.00036407565, y: 0.037999585, z: 0.0015533422, w: -0.9992765}
+      scale: {x: 0.9864561, y: 1.0000157, z: 1.0100583}
+    - name: sk_teddy_clavicleEnd_rgt
+      parentName: skin_teddy_clavicle_rgt
+      position: {x: 0.13157466, y: -0.000000011017083, z: -0.0000014386793}
+      rotation: {x: -0.0016541491, y: -0.0380174, z: -0.010166493, w: 0.999224}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_ctt_teddy_followShoulderFK_clavicle_rgt
+      parentName: skin_teddy_clavicle_rgt
+      position: {x: 0.13157466, y: -0.000000011017083, z: -0.0000014386793}
+      rotation: {x: -0.69796616, y: 0.06934351, z: 0.11965874, w: 0.70264965}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_clavicle_lft
+      parentName: skin_teddy_chest
+      position: {x: -0.083381005, y: 0, z: 0.053799834}
+      rotation: {x: -0.0025516974, y: 0.63600856, z: -0.003095982, w: 0.77167165}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_clavicle_lft
+      parentName: offset_skin_teddy_clavicle_lft
+      position: {x: 7.105427e-17, y: -4.440892e-18, z: -2.842171e-16}
+      rotation: {x: -0.0003640101, y: 0.03799957, z: 0.0015533537, w: -0.9992765}
+      scale: {x: 0.986456, y: 1.0000159, z: 1.0100584}
+    - name: sk_teddy_clavicleEnd_lft
+      parentName: skin_teddy_clavicle_lft
+      position: {x: -0.13157515, y: -7.105427e-17, z: -5.684342e-16}
+      rotation: {x: -0.0016541491, y: -0.0380174, z: -0.010166493, w: 0.999224}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_ctt_teddy_followShoulderFK_clavicle_lft
+      parentName: skin_teddy_clavicle_lft
+      position: {x: -0.13157515, y: 0, z: 0}
+      rotation: {x: -0.69796616, y: 0.06934351, z: 0.11965874, w: 0.70264965}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_ctt_chest_neck
+      parentName: skin_teddy_chest
+      position: {x: -0.14705974, y: -2.4424906e-17, z: 5.582632e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_backPack
+      parentName: skin_teddy_chest
+      position: {x: -0.040071424, y: -0.10591296, z: -6.483009e-17}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_skin_teddy_head
+      parentName: grp_teddy_joints
+      position: {x: -0, y: 1.5479574, z: -0.0021425255}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_head
+      parentName: offset_skin_teddy_head
+      position: {x: -3.1023693e-17, y: -0.019188967, z: 0.079820946}
+      rotation: {x: -0.55734545, y: 0.4351622, z: 0.5573454, w: -0.4351622}
+      scale: {x: 1.0000012, y: 1.0000011, z: 1.0000012}
+    - name: sk_teddy_headEnd
+      parentName: skin_teddy_head
+      position: {x: -0.12369317, y: 4.440892e-18, z: -9.860761e-34}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000005}
+    - name: skin_teddy_ear_rgt
+      parentName: skin_teddy_head
+      position: {x: -0.072819285, y: -0.0018865737, z: -0.0906659}
+      rotation: {x: -0, y: -0, z: -1, w: 0}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000005}
+    - name: skin_teddy_ear_lft
+      parentName: skin_teddy_head
+      position: {x: -0.072818175, y: -0.0018862981, z: 0.09066593}
+      rotation: {x: 0.55734545, y: -0.4351622, z: -0.5573454, w: -0.4351622}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000008}
+    - name: offset_skin_teddy_neckSpline
+      parentName: grp_teddy_joints
+      position: {x: -0, y: 1.461347, z: -0.016099874}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_neckSpline
+      parentName: offset_skin_teddy_neckSpline
+      position: {x: -3.6606312e-17, y: -0.009043699, z: 0.050775316}
+      rotation: {x: -0.5383072, y: 0.45850348, z: 0.5383072, w: -0.45850348}
+      scale: {x: 1.0080588, y: 1.0000005, z: 1.0000002}
+    - name: skin_teddy_neckSpline_01
+      parentName: skin_teddy_neckSpline
+      position: {x: -0.021931956, y: 0, z: 0}
+      rotation: {x: -2.3356213e-26, y: 4.5347864e-17, z: -0.021110548, w: 0.99977714}
+      scale: {x: 1.0080583, y: 1, z: 1}
+    - name: skin_teddy_neckSpline_02
+      parentName: skin_teddy_neckSpline_01
+      position: {x: -0.021931956, y: 0, z: 0}
+      rotation: {x: 2.3356213e-26, y: -4.5347864e-17, z: 0.021110548, w: 0.99977714}
+      scale: {x: 1.0080072, y: 1.0000516, z: 1}
+    - name: skin_teddy_neckSpline_03
+      parentName: skin_teddy_neckSpline_02
+      position: {x: -0.021931956, y: 0, z: 0}
+      rotation: {x: 1.5407438e-33, y: -3.308722e-24, z: -0.0000000018626449, w: 1}
+      scale: {x: 1.0069088, y: 1.0011677, z: 0.9999999}
+    - name: sk_teddy_neckSplineEnd
+      parentName: skin_teddy_neckSpline_03
+      position: {x: -0.021931956, y: 0, z: -1.947949e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0080583, y: 1, z: 1}
+    - name: offset_skin_teddy_pelvis
+      parentName: grp_teddy_joints
+      position: {x: -0, y: 1.0200988, z: -0.016099874}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin_teddy_pelvis
+      parentName: offset_skin_teddy_pelvis
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_pelvisEnd_lft
+      parentName: skin_teddy_pelvis
+      position: {x: 0.07124354, y: -6.661338e-18, z: 0.06877118}
+      rotation: {x: 7.970825e-17, y: 0.92722183, z: -7.970825e-17, w: 0.37451264}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_pelvisEnd_rgt
+      parentName: skin_teddy_pelvis
+      position: {x: 0.071243845, y: -0.00000002613925, z: -0.0687712}
+      rotation: {x: 0.92722183, y: -2.2992175e-17, z: -0.37451264, w: -5.680015e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_ctt_teddy_followLegFK_pelvis_lft
+      parentName: skin_teddy_pelvis
+      position: {x: 0.07124354, y: -4.440892e-18, z: 0.06877118}
+      rotation: {x: -0.011678307, y: 0.9999318, z: 6.122817e-17, w: -7.150901e-19}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_ctt_teddy_followLegFK_pelvis_rgt
+      parentName: skin_teddy_pelvis
+      position: {x: 0.071243845, y: -0.00000002613925, z: -0.0687712}
+      rotation: {x: 0.99993193, y: 0.011671548, z: -3.3062802e-18, w: -2.8325766e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_cvSpline
+      parentName: grp_teddy_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cv_teddy_bodySpline
+      parentName: grp_teddy_cvSpline
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cv_teddy_footSpline_lft
+      parentName: grp_teddy_cvSpline
+      position: {x: 1.5987211e-16, y: 2.842171e-16, z: 1.7763567e-16}
+      rotation: {x: 5.551115e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cv_teddy_footSpline_rgt
+      parentName: grp_teddy_cvSpline
+      position: {x: -0.000000024290902, y: -0.00000038524908, z: -0.000000025711776}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cv_teddy_forearmSpline_lft
+      parentName: grp_teddy_cvSpline
+      position: {x: 7.105427e-17, y: 0, z: 4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cv_teddy_forearmSpline_rgt
+      parentName: grp_teddy_cvSpline
+      position: {x: -2.1316282e-16, y: -2.842171e-16, z: -4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cv_teddy_handSpline_lft
+      parentName: grp_teddy_cvSpline
+      position: {x: 1.2655513, y: 1.5173814, z: 0.08820122}
+      rotation: {x: -0.035124008, y: 0.0049534026, z: 0.68454015, w: 0.7281116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cv_teddy_handSpline_rgt
+      parentName: grp_teddy_cvSpline
+      position: {x: -1.261982, y: 1.5159672, z: 0.14558958}
+      rotation: {x: -0.015863113, y: 0.029154783, z: -0.68527484, w: 0.72752786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cv_teddy_neckSpline
+      parentName: grp_teddy_cvSpline
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cv_teddy_shinSpline_lft
+      parentName: grp_teddy_cvSpline
+      position: {x: 8.881784e-18, y: 0, z: -5.5511148e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cv_teddy_shinSpline_rgt
+      parentName: grp_teddy_cvSpline
+      position: {x: -0.0000000022995466, y: -0.00000003594624, z: 0.0000010325766}
+      rotation: {x: -0.0000049557184, y: 0.00000018995668, z: 9.413718e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cv_teddy_shoulderSpline_lft
+      parentName: grp_teddy_cvSpline
+      position: {x: 3.5527136e-17, y: 0, z: 2.220446e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cv_teddy_shoulderSpline_rgt
+      parentName: grp_teddy_cvSpline
+      position: {x: -3.5527136e-17, y: -2.842171e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cv_teddy_thighSpline_lft
+      parentName: grp_teddy_cvSpline
+      position: {x: -0, y: 1.4210854e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cv_teddy_thighSpline_rgt
+      parentName: grp_teddy_cvSpline
+      position: {x: -0.0000000023048055, y: -0.00000021702249, z: -0.000012805259}
+      rotation: {x: 0.00000676151, y: 0.00000018995668, z: -1.2843939e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_IkSpline
+      parentName: grp_teddy_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ikSpline_teddy_bodySpline
+      parentName: grp_teddy_IkSpline
+      position: {x: 2.4651903e-34, y: 1.3142872, z: -0.016099874}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikSpline_teddy_bodySpline
+      parentName: offset_ikSpline_teddy_bodySpline
+      position: {x: -0.00030408625, y: 0.00011187253, z: 1.3619966e-16}
+      rotation: {x: -1.2613747e-16, y: 2.1382025e-16, z: -0.06927383, w: 0.9975977}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ikSpline_teddy_neckSpline
+      parentName: grp_teddy_IkSpline
+      position: {x: -5.5220264e-32, y: 1.5479574, z: -0.0021425255}
+      rotation: {x: -0.5383072, y: 0.45850348, z: 0.5383072, w: -0.45850348}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikSpline_teddy_neckSpline
+      parentName: offset_ikSpline_teddy_neckSpline
+      position: {x: 0.006133603, y: 0.081857175, z: 9.337789e-17}
+      rotation: {x: 4.3930662e-17, y: -1.06138165e-16, z: -0.07776847, w: 0.9969714}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_locDist
+      parentName: grp_teddy_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locDist_teddy_pelvis
+      parentName: grp_teddy_locDist
+      position: {x: -0, y: 1.0200988, z: -0.016099874}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locDist_teddy_chest
+      parentName: grp_teddy_locDist
+      position: {x: 3.4512665e-33, y: 1.3142872, z: -0.016099874}
+      rotation: {x: 0.5799289, y: -0.40457696, z: -0.5799289, w: 0.40457696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locDist_teddy_neck
+      parentName: grp_teddy_locDist
+      position: {x: -2.214191e-17, y: 1.4523033, z: 0.03467543}
+      rotation: {x: 0.5799289, y: -0.40457696, z: -0.5799289, w: 0.40457696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locDist_teddy_head
+      parentName: grp_teddy_locDist
+      position: {x: -3.1023693e-17, y: 1.5287684, z: 0.07767842}
+      rotation: {x: 0.5573454, y: -0.43516216, z: -0.5573454, w: 0.43516216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_rig_lft
+      parentName: grp_teddy_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_Ik_lft
+      parentName: grp_teddy_rig_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ik_teddy_arm_lft
+      parentName: grp_teddy_Ik_lft
+      position: {x: -0.63806736, y: 1.4325297, z: -0.023432104}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ik_teddy_arm_lft
+      parentName: offset_ik_teddy_arm_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ik_teddy_leg_lft
+      parentName: grp_teddy_Ik_lft
+      position: {x: -0.06877118, y: 0.1041388, z: -0.03520302}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ik_teddy_leg_lft
+      parentName: offset_ik_teddy_leg_lft
+      position: {x: -7.9936054e-17, y: 1.2434498e-16, z: -2.5757173e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ik_teddy_shoulderNoneroll_lft
+      parentName: grp_teddy_Ik_lft
+      position: {x: -0.40312174, y: 1.4325297, z: -0.028151166}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ik_teddy_shoulderNoneroll_lft
+      parentName: offset_ik_teddy_shoulderNoneroll_lft
+      position: {x: 0.21601743, y: -0.23204616, z: 0.04700829}
+      rotation: {x: -0.03691907, y: -4.1111958e-11, z: 0.6076409, w: 0.7933534}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ik_teddy_thighNoneroll_lft
+      parentName: grp_teddy_Ik_lft
+      position: {x: -0.06877118, y: 0.5904914, z: -0.007727994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ik_teddy_thighNoneroll_lft
+      parentName: offset_ik_teddy_thighNoneroll_lft
+      position: {x: 9.7699626e-17, y: 2.842171e-16, z: 2.3314683e-17}
+      rotation: {x: 5.551115e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_IkSpline_lft
+      parentName: grp_teddy_rig_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ikSpline_teddy_forearmSpline_lft
+      parentName: grp_teddy_IkSpline_lft
+      position: {x: -0.63806736, y: 1.4325297, z: -0.023432104}
+      rotation: {x: 0, y: 0.010041366, z: -0, w: 0.9999496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikSpline_teddy_forearmSpline_lft
+      parentName: offset_ikSpline_teddy_forearmSpline_lft
+      position: {x: 0.4347323, y: -0.46589503, z: 0.06873314}
+      rotation: {x: -0.048863668, y: 0.004953404, z: 0.68369675, w: 0.7281117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ikSpline_teddy_shinSpline_lft
+      parentName: grp_teddy_IkSpline_lft
+      position: {x: -0.06877118, y: 0.1041388, z: -0.03520302}
+      rotation: {x: 0.51390713, y: 0.48569486, z: 0.51390713, w: 0.48569486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikSpline_teddy_shinSpline_lft
+      parentName: offset_ikSpline_teddy_shinSpline_lft
+      position: {x: 0.000000011914019, y: -9.157099e-10, z: -6.545504e-10}
+      rotation: {x: 1.3877788e-16, y: 2.220446e-16, z: -7.632783e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ikSpline_teddy_shoulderSpline_lft
+      parentName: grp_teddy_IkSpline_lft
+      position: {x: -0.40312174, y: 1.4325297, z: -0.028151166}
+      rotation: {x: 0, y: -0.030337062, z: -0, w: 0.99953973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikSpline_teddy_shoulderSpline_lft
+      parentName: offset_ikSpline_teddy_shoulderSpline_lft
+      position: {x: 0.21847068, y: -0.23204617, z: 0.03382113}
+      rotation: {x: -4.3700664e-16, y: -3.3095385e-16, z: 0.6087614, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ikSpline_teddy_thighSpline_lft
+      parentName: grp_teddy_IkSpline_lft
+      position: {x: -0.06877118, y: 0.5904914, z: -0.007727994}
+      rotation: {x: 0.49412674, y: 0.5058051, z: 0.49412674, w: 0.5058051}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikSpline_teddy_thighSpline_lft
+      parentName: offset_ikSpline_teddy_thighSpline_lft
+      position: {x: 0.000000021801391, y: -4.094015e-10, z: -6.5455025e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_locDist_lft
+      parentName: grp_teddy_rig_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locDist_teddy_clavicleEnd_lft
+      parentName: grp_teddy_locDist_lft
+      position: {x: -0.12952805, y: 1.4157574, z: 0.022355344}
+      rotation: {x: 0.8080701, y: -0.08498735, z: -0.14950152, w: 0.5634263}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locDist_teddy_hand_ik_lft
+      parentName: grp_teddy_locDist_lft
+      position: {x: -0.63806736, y: 1.4325297, z: -0.023432104}
+      rotation: {x: 0, y: 0.010041366, z: -0, w: 0.9999496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locDist_teddy_elbow_lft
+      parentName: grp_teddy_locDist_lft
+      position: {x: -0.40312174, y: 1.4325297, z: -0.30726367}
+      rotation: {x: 0, y: -0.030337062, z: -0, w: 0.99953973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locDist_teddy_pelvisEnd_lft
+      parentName: grp_teddy_locDist_lft
+      position: {x: -0.06877118, y: 0.9488553, z: -0.016099874}
+      rotation: {x: 0.6508672, y: 0.2763546, z: 0.2763546, w: 0.6508672}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locDist_teddy_foot_ik_lft
+      parentName: grp_teddy_locDist_lft
+      position: {x: -0.06877118, y: 0.1041388, z: -0.03520302}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locDist_teddy_knee_lft
+      parentName: grp_teddy_locDist_lft
+      position: {x: -0.06877118, y: 0.5904914, z: 0.3617219}
+      rotation: {x: 0.49412674, y: 0.5058051, z: 0.49412674, w: 0.5058051}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_handNoneroll_lft
+      parentName: grp_teddy_rig_lft
+      position: {x: -0.18710431, y: 1.2004836, z: 0.018857121}
+      rotation: {x: -0.04199596, y: 0.0122643905, z: 0.684153, w: 0.7280252}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ikSpline_teddy_handSpline_lft
+      parentName: grp_teddy_handNoneroll_lft
+      position: {x: -0.270993, y: -1.4210854e-15, z: 1.3322676e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikSpline_teddy_handSpline_lft
+      parentName: offset_ikSpline_teddy_handSpline_lft
+      position: {x: -7.105427e-16, y: 6.750156e-16, z: 5.3290704e-17}
+      rotation: {x: 3.469447e-18, y: 6.938894e-18, z: -6.505213e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_sk_teddy_handSpline_lft
+      parentName: grp_teddy_handNoneroll_lft
+      position: {x: -0.234993, y: 0, z: -8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_handSpline_lft
+      parentName: offset_sk_teddy_handSpline_lft
+      position: {x: -2.842171e-16, y: -4.973799e-16, z: -3.5527136e-17}
+      rotation: {x: 0.000000007450581, y: 6.3946e-40, z: 7.352717e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_handSpline_lft_01
+      parentName: sk_teddy_handSpline_lft
+      position: {x: -0.018, y: 0, z: 0}
+      rotation: {x: 0.000000007450581, y: 1.1764347e-22, z: -4.41163e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_handSplineEnd_lft
+      parentName: sk_teddy_handSpline_lft_01
+      position: {x: -0.018, y: -2.842171e-16, z: 1.1546319e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ik_teddy_handNoneroll_lft
+      parentName: grp_teddy_handNoneroll_lft
+      position: {x: -0.270993, y: -8.5265126e-16, z: 0}
+      rotation: {x: 0, y: -0.010041366, z: -0, w: 0.9999496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ik_teddy_handNoneroll_lft
+      parentName: offset_ik_teddy_handNoneroll_lft
+      position: {x: -1.4210854e-16, y: 3.5527136e-17, z: 1.0658141e-16}
+      rotation: {x: -4.466913e-17, y: 1.6410484e-15, z: -5.969888e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_sk_teddy_handNoneroll_lft
+      parentName: grp_teddy_handNoneroll_lft
+      position: {x: -0.234993, y: -2.842171e-16, z: -8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_handNoneroll_lft
+      parentName: offset_sk_teddy_handNoneroll_lft
+      position: {x: -0, y: -2.842171e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_handNonerollEnd_lft
+      parentName: sk_teddy_handNoneroll_lft
+      position: {x: -0.036, y: -5.684342e-16, z: 1.2434498e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_footNoneroll_lft
+      parentName: grp_teddy_rig_lft
+      position: {x: -0.06877118, y: 0.5904914, z: -0.007727994}
+      rotation: {x: 0.51390713, y: 0.48569486, z: 0.51390713, w: 0.48569486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ikSpline_teddy_footSpline_lft
+      parentName: grp_teddy_footNoneroll_lft
+      position: {x: -0.53712803, y: -4.6185276e-16, z: 1.5099033e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikSpline_teddy_footSpline_lft
+      parentName: offset_ikSpline_teddy_footSpline_lft
+      position: {x: 5.3290704e-17, y: 1.4210854e-16, z: -5.3290704e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_sk_teddy_footSpline_lft
+      parentName: grp_teddy_footNoneroll_lft
+      position: {x: -0.48712805, y: -4.440892e-16, z: 9.7699626e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_footSpline_lft
+      parentName: offset_sk_teddy_footSpline_lft
+      position: {x: 5.3290704e-17, y: 1.2434498e-16, z: -8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_footSpline_lft_01
+      parentName: sk_teddy_footSpline_lft
+      position: {x: -0.024999999, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_footSplineEnd_lft
+      parentName: sk_teddy_footSpline_lft_01
+      position: {x: -0.024999999, y: 0, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ik_teddy_footNoneroll_lft
+      parentName: grp_teddy_footNoneroll_lft
+      position: {x: -0.53712803, y: -4.52971e-16, z: 1.3322676e-16}
+      rotation: {x: 0.51390713, y: 0.48569486, z: 0.51390713, w: -0.48569486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ik_teddy_footNoneroll_lft
+      parentName: offset_ik_teddy_footNoneroll_lft
+      position: {x: -7.9936054e-17, y: 6.217249e-17, z: 1.2434498e-16}
+      rotation: {x: 5.551115e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_sk_teddy_footNoneroll_lft
+      parentName: grp_teddy_footNoneroll_lft
+      position: {x: -0.48712805, y: -4.440892e-16, z: 9.7699626e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_footNoneroll_lft
+      parentName: offset_sk_teddy_footNoneroll_lft
+      position: {x: -0, y: -8.881784e-18, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_footNonerollEnd_lft
+      parentName: sk_teddy_footNoneroll_lft
+      position: {x: -0.049999997, y: -8.881784e-18, z: 1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_cls_lft
+      parentName: grp_teddy_rig_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_forearm_cls_lft
+      parentName: grp_teddy_cls_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_forearmBase_lftHandle
+      parentName: grp_teddy_forearm_cls_lft
+      position: {x: -0.18710431, y: 1.2004836, z: 0.018857121}
+      rotation: {x: -0.035124008, y: 0.0049534026, z: 0.68454015, w: 0.7281116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_forearmBase_lftHandle
+      parentName: offset_cls_teddy_forearmBase_lftHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_forearmBend_lftHandle
+      parentName: grp_teddy_forearm_cls_lft
+      position: {x: -0.19457342, y: 1.0835592, z: 0.02770706}
+      rotation: {x: -0.035124008, y: 0.0049534026, z: 0.68454015, w: 0.7281116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_forearmBend_lftHandle
+      parentName: offset_cls_teddy_forearmBend_lftHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_forearmEnd_lftHandle
+      parentName: grp_teddy_forearm_cls_lft
+      position: {x: -0.2020425, y: 0.9666348, z: 0.036557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_forearmEnd_lftHandle
+      parentName: offset_cls_teddy_forearmEnd_lftHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_shoulder_cls_lft
+      parentName: grp_teddy_cls_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_shoulderBase_lftHandle
+      parentName: grp_teddy_shoulder_cls_lft
+      position: {x: -0.12952805, y: 1.4157574, z: 0.022355344}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_shoulderBase_lftHandle
+      parentName: offset_cls_teddy_shoulderBase_lftHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_shoulderBend_lftHandle
+      parentName: grp_teddy_shoulder_cls_lft
+      position: {x: -0.15831618, y: 1.3081205, z: 0.020606233}
+      rotation: {x: -0.03691907, y: -4.1111958e-11, z: 0.6076409, w: 0.7933534}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_shoulderBend_lftHandle
+      parentName: offset_cls_teddy_shoulderBend_lftHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_shoulderEnd_lftHandle
+      parentName: grp_teddy_shoulder_cls_lft
+      position: {x: -0.18710431, y: 1.2004836, z: 0.018857121}
+      rotation: {x: -0.035124008, y: 0.0049534026, z: 0.68454015, w: 0.7281116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_shoulderEnd_lftHandle
+      parentName: offset_cls_teddy_shoulderEnd_lftHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_shin_cls_lft
+      parentName: grp_teddy_cls_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_shinBase_lftHandle
+      parentName: grp_teddy_shin_cls_lft
+      position: {x: -0.06877118, y: 0.5904914, z: -0.007727994}
+      rotation: {x: -2.7755576e-17, y: -1.34886e-40, z: 4.1633363e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_shinBase_lftHandle
+      parentName: offset_cls_teddy_shinBase_lftHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_shinBend_lftHandle
+      parentName: grp_teddy_shin_cls_lft
+      position: {x: -0.06877118, y: 0.34731513, z: -0.021465506}
+      rotation: {x: -2.7755576e-17, y: -1.34886e-40, z: 4.1633363e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_shinBend_lftHandle
+      parentName: offset_cls_teddy_shinBend_lftHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_shinEnd_lftHandle
+      parentName: grp_teddy_shin_cls_lft
+      position: {x: -0.06877118, y: 0.1041388, z: -0.03520302}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_shinEnd_lftHandle
+      parentName: offset_cls_teddy_shinEnd_lftHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_thigh_cls_lft
+      parentName: grp_teddy_cls_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_thighBase_lftHandle
+      parentName: grp_teddy_thigh_cls_lft
+      position: {x: -0.06877118, y: 0.9488553, z: -0.016099874}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_thighBase_lftHandle
+      parentName: offset_cls_teddy_thighBase_lftHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_thighBend_lftHandle
+      parentName: grp_teddy_thigh_cls_lft
+      position: {x: -0.06877118, y: 0.76967335, z: -0.011913934}
+      rotation: {x: 5.551115e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_thighBend_lftHandle
+      parentName: offset_cls_teddy_thighBend_lftHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_thighEnd_lftHandle
+      parentName: grp_teddy_thigh_cls_lft
+      position: {x: -0.06877118, y: 0.5904914, z: -0.007727994}
+      rotation: {x: -2.7755576e-17, y: -1.34886e-40, z: 4.1633363e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_thighEnd_lftHandle
+      parentName: offset_cls_teddy_thighEnd_lftHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_rig_rgt
+      parentName: grp_teddy_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_Ik_rgt
+      parentName: grp_teddy_rig_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ik_teddy_arm_rgt
+      parentName: grp_teddy_Ik_rgt
+      position: {x: 0.638067, y: 1.43253, z: -0.0234321}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ik_teddy_arm_rgt
+      parentName: offset_ik_teddy_arm_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ik_teddy_leg_rgt
+      parentName: grp_teddy_Ik_rgt
+      position: {x: 0.0687712, y: 0.104139, z: -0.035203}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ik_teddy_leg_rgt
+      parentName: offset_ik_teddy_leg_rgt
+      position: {x: -0.000000014779611, y: -0.00000019267671, z: -0.000000021359847}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ik_teddy_shoulderNoneroll_rgt
+      parentName: grp_teddy_Ik_rgt
+      position: {x: 0.40312198, y: 1.43253, z: -0.0281512}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ik_teddy_shoulderNoneroll_rgt
+      parentName: offset_ik_teddy_shoulderNoneroll_rgt
+      position: {x: -0.21601775, y: -0.23204653, z: 0.047008384}
+      rotation: {x: -0.03691907, y: -0.00000000909664, z: -0.6076409, w: 0.7933534}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ik_teddy_thighNoneroll_rgt
+      parentName: grp_teddy_Ik_rgt
+      position: {x: 0.0687712, y: 0.590491, z: -0.00772799}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ik_teddy_thighNoneroll_rgt
+      parentName: offset_ik_teddy_thighNoneroll_rgt
+      position: {x: 1.7044143e-14, y: -0.00000011311498, z: -0.000004843348}
+      rotation: {x: 0.0000067575806, y: 0.00000031282184, z: -0.0000000073058395, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_IkSpline_rgt
+      parentName: grp_teddy_rig_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ikSpline_teddy_forearmSpline_rgt
+      parentName: grp_teddy_IkSpline_rgt
+      position: {x: 0.63806695, y: 1.43253, z: -0.023432054}
+      rotation: {x: 0.9999496, y: 3.135755e-11, z: 0.010041766, w: -0.000000003122555}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikSpline_teddy_forearmSpline_rgt
+      parentName: offset_ikSpline_teddy_forearmSpline_rgt
+      position: {x: -0.43584108, y: 0.4666101, z: -0.05090222}
+      rotation: {x: -0.029621962, y: -0.02915478, z: 0.68481815, w: 0.7275278}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ikSpline_teddy_shinSpline_rgt
+      parentName: grp_teddy_IkSpline_rgt
+      position: {x: 0.0687712, y: 0.104139, z: -0.035203}
+      rotation: {x: -0.4856949, y: 0.5139071, z: -0.4856949, w: 0.5139071}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikSpline_teddy_shinSpline_rgt
+      parentName: offset_ikSpline_teddy_shinSpline_rgt
+      position: {x: 0.0000007543903, y: 0.000000008062739, z: -0.000000041123958}
+      rotation: {x: 3.5096537e-11, y: 0.00000003701737, z: -0.000009908417, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ikSpline_teddy_shoulderSpline_rgt
+      parentName: grp_teddy_IkSpline_rgt
+      position: {x: 0.40312198, y: 1.43253, z: -0.028151222}
+      rotation: {x: 0.99953973, y: -9.3623435e-11, z: -0.030336827, w: -0.000000003084711}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikSpline_teddy_shoulderSpline_rgt
+      parentName: offset_ikSpline_teddy_shoulderSpline_rgt
+      position: {x: -0.21847093, y: 0.23204653, z: -0.033821307}
+      rotation: {x: -0.00000029506398, y: 0.000000007693454, z: 0.6087614, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ikSpline_teddy_thighSpline_rgt
+      parentName: grp_teddy_IkSpline_rgt
+      position: {x: 0.0687712, y: 0.590491, z: -0.00772799}
+      rotation: {x: 0.5058051, y: -0.49412674, z: 0.5058051, w: -0.49412674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikSpline_teddy_thighSpline_rgt
+      parentName: offset_ikSpline_teddy_thighSpline_rgt
+      position: {x: 0.000000018784856, y: 0.000009692393, z: -0.0000000051358526}
+      rotation: {x: -0.0000037034506, y: -0.000000019468292, z: 0.0000135207765, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_locDist_rgt
+      parentName: grp_teddy_rig_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locDist_teddy_clavicleEnd_rgt
+      parentName: grp_teddy_locDist_rgt
+      position: {x: 0.12952787, y: 1.4157575, z: 0.022355398}
+      rotation: {x: -0.5634263, y: -0.14950152, z: 0.08498735, w: 0.8080701}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locDist_teddy_hand_ik_rgt
+      parentName: grp_teddy_locDist_rgt
+      position: {x: 0.638067, y: 1.43253, z: -0.0234321}
+      rotation: {x: 0.9999496, y: 6.148564e-19, z: 0.010041366, w: -6.122925e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locDist_teddy_elbow_rgt
+      parentName: grp_teddy_locDist_rgt
+      position: {x: 0.40312198, y: 1.43253, z: -0.3072637}
+      rotation: {x: 0.99953973, y: 1.8576092e-18, z: -0.030337062, w: 6.120416e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locDist_teddy_pelvisEnd_rgt
+      parentName: grp_teddy_locDist_rgt
+      position: {x: 0.0687712, y: 0.948855, z: -0.0160999}
+      rotation: {x: -0.6508672, y: 0.2763546, z: -0.2763546, w: 0.6508672}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locDist_teddy_foot_ik_rgt
+      parentName: grp_teddy_locDist_rgt
+      position: {x: 0.0687712, y: 0.104139, z: -0.035203}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locDist_teddy_knee_rgt
+      parentName: grp_teddy_locDist_rgt
+      position: {x: 0.06877143, y: 0.5904933, z: 0.36170754}
+      rotation: {x: 0.50580657, y: -0.49412698, z: 0.5058036, w: -0.4941265}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_handNoneroll_rgt
+      parentName: grp_teddy_rig_rgt
+      position: {x: 0.18710424, y: 1.2004834, z: 0.018857185}
+      rotation: {x: 0.727784, y: -0.685081, z: -0.021848043, w: 0.022743404}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ikSpline_teddy_handSpline_rgt
+      parentName: grp_teddy_handNoneroll_rgt
+      position: {x: 0.27099264, y: 2.8421708e-15, z: -0.0000000015600153}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikSpline_teddy_handSpline_rgt
+      parentName: offset_ikSpline_teddy_handSpline_rgt
+      position: {x: -7.105427e-16, y: 2.8250785e-10, z: -1.2434498e-16}
+      rotation: {x: -6.938894e-18, y: 5.421011e-20, z: -2.2463314e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_sk_teddy_handSpline_rgt
+      parentName: grp_teddy_handNoneroll_rgt
+      position: {x: 0.23499238, y: -2.842171e-16, z: -0.00000004868173}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_handSpline_rgt
+      parentName: offset_sk_teddy_handSpline_rgt
+      position: {x: -1.4210854e-15, y: 2.8251038e-10, z: -4.4408918e-17}
+      rotation: {x: 0.000000007450581, y: -1.4705328e-23, z: 1.27891e-39, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_handSpline_rgt_01
+      parentName: sk_teddy_handSpline_rgt
+      position: {x: 0.01800013, y: 0, z: 0}
+      rotation: {x: 0.000000007450581, y: 2.3528525e-22, z: 1.9504535e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_handSplineEnd_rgt
+      parentName: sk_teddy_handSpline_rgt_01
+      position: {x: 0.01800013, y: 5.684342e-16, z: 0.000000047121716}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ik_teddy_handNoneroll_rgt
+      parentName: grp_teddy_handNoneroll_rgt
+      position: {x: 0.27099264, y: 1.1368684e-15, z: -0.0000000015600151}
+      rotation: {x: 0.9999496, y: -3.1362628e-11, z: 0.010041366, w: 0.000000003123185}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ik_teddy_handNoneroll_rgt
+      parentName: offset_ik_teddy_handNoneroll_rgt
+      position: {x: 2.842171e-16, y: -2.8250874e-10, z: 8.437695e-17}
+      rotation: {x: 0.0000000031233425, y: -1.5092094e-15, z: 4.440892e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_sk_teddy_handNoneroll_rgt
+      parentName: grp_teddy_handNoneroll_rgt
+      position: {x: 0.23499238, y: 0, z: -0.00000004868173}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_handNoneroll_rgt
+      parentName: offset_sk_teddy_handNoneroll_rgt
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_handNonerollEnd_rgt
+      parentName: sk_teddy_handNoneroll_rgt
+      position: {x: 0.03600026, y: 8.5265126e-16, z: 0.000000047121716}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_footNoneroll_rgt
+      parentName: grp_teddy_rig_rgt
+      position: {x: 0.0687712, y: 0.5904909, z: -0.0077328333}
+      rotation: {x: -0.48569757, y: 0.51390487, z: -0.4856972, w: 0.5139045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ikSpline_teddy_footSpline_rgt
+      parentName: grp_teddy_footNoneroll_rgt
+      position: {x: 0.53712744, y: 0.000000011821697, z: -1.5987211e-16}
+      rotation: {x: 0, y: -0, z: -0.00000006220177, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikSpline_teddy_footSpline_rgt
+      parentName: offset_ikSpline_teddy_footSpline_rgt
+      position: {x: -2.451923e-12, y: 0.0000004952831, z: 0.0000000024935873}
+      rotation: {x: -0.00000031194708, y: -0.000000024937423, z: 0.0000049528307, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_sk_teddy_footSpline_rgt
+      parentName: grp_teddy_footNoneroll_rgt
+      position: {x: 0.48712745, y: 0.000000018041874, z: -7.9936054e-17}
+      rotation: {x: 0, y: -0, z: -0.00000006220177, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_footSpline_rgt
+      parentName: offset_sk_teddy_footSpline_rgt
+      position: {x: 1.2612133e-15, y: -2.6645352e-17, z: -1.9539925e-16}
+      rotation: {x: 2.9339327e-21, y: -0.000000024935877, z: 0.0000049528307, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_footSpline_rgt_01
+      parentName: sk_teddy_footSpline_rgt
+      position: {x: 0.024999999, y: 0, z: 0}
+      rotation: {x: -0.0000003119472, y: 1.1082591e-22, z: 2.216518e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_footSplineEnd_rgt
+      parentName: sk_teddy_footSpline_rgt_01
+      position: {x: 0.024999999, y: 0, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ik_teddy_footNoneroll_rgt
+      parentName: grp_teddy_footNoneroll_rgt
+      position: {x: 0.53712744, y: 0.000000011821697, z: -1.1546319e-16}
+      rotation: {x: 0.48569486, y: -0.51390713, z: 0.48569486, w: 0.51390713}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ik_teddy_footNoneroll_rgt
+      parentName: offset_ik_teddy_footNoneroll_rgt
+      position: {x: 0.0000000024935858, y: 0.000000027937352, z: -0.00000049449415}
+      rotation: {x: 0.000004926848, y: -0.0000002663161, z: 1.312099e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_sk_teddy_footNoneroll_rgt
+      parentName: grp_teddy_footNoneroll_rgt
+      position: {x: 0.48712745, y: 0.000000018041874, z: -7.9936054e-17}
+      rotation: {x: 0, y: -0, z: -0.00000006220177, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_footNoneroll_rgt
+      parentName: offset_sk_teddy_footNoneroll_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -2.8622438e-21, y: -0.000000024935819, z: 0.0000049528194, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk_teddy_footNonerollEnd_rgt
+      parentName: sk_teddy_footNoneroll_rgt
+      position: {x: 0.049999997, y: -8.881784e-18, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_cls_rgt
+      parentName: grp_teddy_rig_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_forearm_cls_rgt
+      parentName: grp_teddy_cls_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_forearmBase_rgtHandle
+      parentName: grp_teddy_forearm_cls_rgt
+      position: {x: 0.18710424, y: 1.2004834, z: 0.018857185}
+      rotation: {x: -0.015863115, y: 0.029154785, z: -0.68527484, w: 0.72752786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_forearmBase_rgtHandle
+      parentName: offset_cls_teddy_forearmBase_rgtHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_forearmBend_rgtHandle
+      parentName: grp_teddy_forearm_cls_rgt
+      position: {x: 0.19419788, y: 1.0832015, z: 0.018782092}
+      rotation: {x: -0.015863115, y: 0.029154785, z: -0.68527484, w: 0.72752786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_forearmBend_rgtHandle
+      parentName: offset_cls_teddy_forearmBend_rgtHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_forearmEnd_rgtHandle
+      parentName: grp_teddy_forearm_cls_rgt
+      position: {x: 0.2012915, y: 0.9659198, z: 0.018707072}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_forearmEnd_rgtHandle
+      parentName: offset_cls_teddy_forearmEnd_rgtHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_shoulder_cls_rgt
+      parentName: grp_teddy_cls_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_shoulderBase_rgtHandle
+      parentName: grp_teddy_shoulder_cls_rgt
+      position: {x: 0.12952787, y: 1.4157575, z: 0.022355398}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_shoulderBase_rgtHandle
+      parentName: offset_cls_teddy_shoulderBase_rgtHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_shoulderBend_rgtHandle
+      parentName: grp_teddy_shoulder_cls_rgt
+      position: {x: 0.15831605, y: 1.3081205, z: 0.02060616}
+      rotation: {x: -0.03691907, y: -0.00000000909664, z: -0.6076409, w: 0.7933534}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_shoulderBend_rgtHandle
+      parentName: offset_cls_teddy_shoulderBend_rgtHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_shoulderEnd_rgtHandle
+      parentName: grp_teddy_shoulder_cls_rgt
+      position: {x: 0.18710424, y: 1.2004834, z: 0.018857185}
+      rotation: {x: -0.015863115, y: 0.029154785, z: -0.68527484, w: 0.72752786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_shoulderEnd_rgtHandle
+      parentName: offset_cls_teddy_shoulderEnd_rgtHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_shin_cls_rgt
+      parentName: grp_teddy_cls_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_shinBase_rgtHandle
+      parentName: grp_teddy_shin_cls_rgt
+      position: {x: 0.0687712, y: 0.5904909, z: -0.0077328333}
+      rotation: {x: -0.000004952827, y: 0.00000031282192, z: -0.000000007302176, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_shinBase_rgtHandle
+      parentName: offset_cls_teddy_shinBase_rgtHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_shinBend_rgtHandle
+      parentName: grp_teddy_shin_cls_rgt
+      position: {x: 0.06877118, y: 0.34731475, z: -0.021468053}
+      rotation: {x: -0.000004952827, y: 0.00000031282192, z: -0.000000007302176, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_shinBend_rgtHandle
+      parentName: offset_cls_teddy_shinBend_rgtHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_shinEnd_rgtHandle
+      parentName: grp_teddy_shin_cls_rgt
+      position: {x: 0.068771176, y: 0.10413861, z: -0.035203025}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_shinEnd_rgtHandle
+      parentName: offset_cls_teddy_shinEnd_rgtHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_thigh_cls_rgt
+      parentName: grp_teddy_cls_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_thighBase_rgtHandle
+      parentName: grp_teddy_thigh_cls_rgt
+      position: {x: 0.0687712, y: 0.948855, z: -0.0160999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_thighBase_rgtHandle
+      parentName: offset_cls_teddy_thighBase_rgtHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_thighBend_rgtHandle
+      parentName: grp_teddy_thigh_cls_rgt
+      position: {x: 0.0687712, y: 0.76967293, z: -0.011916358}
+      rotation: {x: 0.0000067575806, y: 0.0000003870084, z: -0.00000008504046, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_thighBend_rgtHandle
+      parentName: offset_cls_teddy_thighBend_rgtHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_thighEnd_rgtHandle
+      parentName: grp_teddy_thigh_cls_rgt
+      position: {x: 0.0687712, y: 0.5904909, z: -0.0077328333}
+      rotation: {x: -0.000004952827, y: 0.00000031282192, z: -0.000000007302176, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_thighEnd_rgtHandle
+      parentName: offset_cls_teddy_thighEnd_rgtHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_head_temp
+      parentName: grp_teddy_rig
+      position: {x: -0, y: 0.55564266, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_head_eyesRig
+      parentName: grp_teddy_rig
+      position: {x: -0, y: 0.9156336, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_follicle_teddy_eyeRig
+      parentName: grp_teddy_head_eyesRig
+      position: {x: -0, y: -0.9156336, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_head_rig_deform
+      parentName: grp_teddy_rig
+      position: {x: -0, y: 1.1063793, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_head_geo_deform
+      parentName: grp_teddy_head_rig_deform
+      position: {x: -0, y: 0.56419843, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_clavicle_rgt_poseInterpolator
+      parentName: grp_teddy_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_clavicle_lft_poseInterpolator
+      parentName: grp_teddy_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_teddy_forearm_lftBase
+      parentName: grp_teddy_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_ctrl
+      parentName: teddy
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_fixe
+      parentName: grp_teddy_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_fixe
+      parentName: offset_ctrl_teddy_fixe
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_general
+      parentName: ctrl_teddy_fixe
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_general
+      parentName: offset_ctrl_teddy_general
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_ctrl_lft
+      parentName: ctrl_teddy_general
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_ctrl_ik_lft
+      parentName: grp_teddy_ctrl_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_ctrl_arm_ik_lft
+      parentName: grp_teddy_ctrl_ik_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_hand_ik_lft
+      parentName: grp_teddy_ctrl_arm_ik_lft
+      position: {x: -0.63806736, y: 1.4325297, z: -0.023432104}
+      rotation: {x: 0, y: 0.010041366, z: -0, w: 0.9999496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_hand_ik_lft
+      parentName: offset_ctrl_teddy_hand_ik_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_pv_teddy_elbow_lft
+      parentName: grp_teddy_ctrl_arm_ik_lft
+      position: {x: -0.40312174, y: 1.4325297, z: -0.30726367}
+      rotation: {x: 0, y: -0.030337062, z: -0, w: 0.99953973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_pv_teddy_elbow_lft
+      parentName: offset_pv_teddy_elbow_lft
+      position: {x: -7.105427e-17, y: 2.842171e-16, z: 1.7763567e-16}
+      rotation: {x: 0, y: -6.938894e-18, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pv_teddy_elbow_lft
+      parentName: dkg_pv_teddy_elbow_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locVislink_pv_teddy_elbow_lft
+      parentName: pv_teddy_elbow_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: visLink_pv_teddy_elbow_lft_skin_teddy_forearm_lft
+      parentName: pv_teddy_elbow_lft
+      position: {x: 0.404087, y: -1.4325297, z: 0.0036515486}
+      rotation: {x: 0, y: 0.030337062, z: -0, w: 0.99953973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_ctrl_leg_ik_lft
+      parentName: grp_teddy_ctrl_ik_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_foot_ik_lft
+      parentName: grp_teddy_ctrl_leg_ik_lft
+      position: {x: -0.06877118, y: 0.1041388, z: -0.03520302}
+      rotation: {x: 1.43878e-40, y: 1.110223e-16, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_foot_ik_lft
+      parentName: offset_ctrl_teddy_foot_ik_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grpLoc_teddy_inside_lft
+      parentName: ctrl_teddy_foot_ik_lft
+      position: {x: 0.0357412, y: -0.096194625, z: 0.12394279}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grpLoc_teddy_outside_lft
+      parentName: grpLoc_teddy_inside_lft
+      position: {x: -0.0916147, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grpLoc_teddy_heel_lft
+      parentName: grpLoc_teddy_outside_lft
+      position: {x: 0.0558735, y: -0.007944173, z: -0.2049857}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grpLoc_teddy_toe_lft
+      parentName: grpLoc_teddy_heel_lft
+      position: {x: 8.881784e-18, y: 2.220446e-18, z: 0.2772571}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grpLoc_teddy_ball_lft
+      parentName: grpLoc_teddy_toe_lft
+      position: {x: -8.881784e-18, y: 0.016944174, z: -0.072271414}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grpLoc_teddy_ankle_lft
+      parentName: grpLoc_teddy_ball_lft
+      position: {x: -0, y: 0.08719463, z: -0.12394279}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_pv_teddy_knee_lft
+      parentName: grp_teddy_ctrl_leg_ik_lft
+      position: {x: -0.06877118, y: 0.5904914, z: 0.3617219}
+      rotation: {x: 0.49412674, y: 0.5058051, z: 0.49412674, w: 0.5058051}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_pv_teddy_knee_lft
+      parentName: offset_pv_teddy_knee_lft
+      position: {x: -0, y: -2.1316282e-16, z: 1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pv_teddy_knee_lft
+      parentName: dkg_pv_teddy_knee_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locVislink_pv_teddy_knee_lft
+      parentName: pv_teddy_knee_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: visLink_pv_teddy_knee_lft_skin_teddy_shin_lft
+      parentName: pv_teddy_knee_lft
+      position: {x: -0.59051085, y: -0.0060650543, z: 0.06877118}
+      rotation: {x: -0.49412674, y: -0.5058051, z: -0.49412674, w: 0.5058051}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_ctrl_fk_lft
+      parentName: grp_teddy_ctrl_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_shoulder_fk_lft
+      parentName: grp_teddy_ctrl_fk_lft
+      position: {x: -0.12952805, y: 1.4157574, z: 0.022355344}
+      rotation: {x: -8.6736174e-19, y: -0.030337062, z: 1.3877788e-17, w: 0.99953973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_shoulder_fk_lft
+      parentName: offset_ctrl_teddy_shoulder_fk_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -1.3877788e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_shoulder_fk_lft
+      parentName: dkg_ctrl_teddy_shoulder_fk_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.6087614, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_forearm_fk_lft
+      parentName: ctrl_teddy_shoulder_fk_lft
+      position: {x: -0.22286785, y: 1.4210854e-16, z: -3.1086245e-17}
+      rotation: {x: 0, y: 0.040372275, z: -0, w: 0.9991847}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_forearm_fk_lft
+      parentName: offset_ctrl_teddy_forearm_fk_lft
+      position: {x: -0, y: 0, z: 4.440892e-18}
+      rotation: {x: 0, y: 0, z: 0.10085504, w: 0.9949012}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_hand_fk_lft
+      parentName: ctrl_teddy_forearm_fk_lft
+      position: {x: -0.234993, y: -1.4210854e-16, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_hand_fk_lft
+      parentName: offset_ctrl_teddy_hand_fk_lft
+      position: {x: -0, y: -2.842171e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_thigh_fk_lft
+      parentName: grp_teddy_ctrl_fk_lft
+      position: {x: -0.06877118, y: 0.9488553, z: -0.016099874}
+      rotation: {x: 0.49412674, y: 0.5058051, z: 0.49412674, w: 0.5058051}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_thigh_fk_lft
+      parentName: offset_ctrl_teddy_thigh_fk_lft
+      position: {x: -1.4210854e-16, y: 1.110223e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_thigh_fk_lft
+      parentName: dkg_ctrl_teddy_thigh_fk_lft
+      position: {x: -0, y: 2.220446e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_shin_fk_lft
+      parentName: ctrl_teddy_thigh_fk_lft
+      position: {x: -0.35846165, y: -6.7723606e-17, z: 4.4408918e-17}
+      rotation: {x: 0, y: 0, z: 0.039883997, w: 0.99920434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_shin_fk_lft
+      parentName: offset_ctrl_teddy_shin_fk_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_foot_fk_lft
+      parentName: ctrl_teddy_shin_fk_lft
+      position: {x: -0.48712805, y: -1.5099033e-16, z: 2.3980816e-16}
+      rotation: {x: 0.51390713, y: 0.48569486, z: 0.51390713, w: -0.48569486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_foot_fk_lft
+      parentName: offset_ctrl_teddy_foot_fk_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_toe_lft
+      parentName: grp_teddy_ctrl_lft
+      position: {x: -0.06877118, y: 0.1041388, z: -0.03520302}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_ctrl_teddy_finger_lft
+      parentName: grp_teddy_ctrl_lft
+      position: {x: -0.2020425, y: 0.9666348, z: 0.036557}
+      rotation: {x: -0.04199596, y: 0.0122643905, z: 0.684153, w: 0.7280252}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_index_lft_01
+      parentName: grp_ctrl_teddy_finger_lft
+      position: {x: -0.041372966, y: -2.842171e-16, z: 0.031083968}
+      rotation: {x: 0, y: 0.05451315, z: -0, w: 0.99851304}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_index_lft_01
+      parentName: offset_ctrl_teddy_index_lft_01
+      position: {x: -0, y: -2.842171e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_index_lft_01
+      parentName: dkg_ctrl_teddy_index_lft_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_index_lft_02
+      parentName: ctrl_teddy_index_lft_01
+      position: {x: -0.08394117, y: -4.6185276e-16, z: -3.5527136e-17}
+      rotation: {x: -7.459311e-17, y: -1.3877788e-17, z: -6.429319e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_index_lft_02
+      parentName: offset_ctrl_teddy_index_lft_02
+      position: {x: 1.4210854e-16, y: 2.842171e-16, z: -1.7763568e-17}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_index_lft_02
+      parentName: dkg_ctrl_teddy_index_lft_02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_index_lft_03
+      parentName: ctrl_teddy_index_lft_02
+      position: {x: -0.04842495, y: -8.0824233e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_index_lft_03
+      parentName: offset_ctrl_teddy_index_lft_03
+      position: {x: -0, y: 2.842171e-16, z: 8.881784e-18}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_index_lft_03
+      parentName: dkg_ctrl_teddy_index_lft_03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_index_lft_04
+      parentName: ctrl_teddy_index_lft_03
+      position: {x: -0.043721803, y: -9.237055e-16, z: 3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_index_lft_04
+      parentName: offset_ctrl_teddy_index_lft_04
+      position: {x: 1.4210854e-16, y: 2.842171e-16, z: 2.6645352e-17}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_index_lft_04
+      parentName: dkg_ctrl_teddy_index_lft_04
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_middle_lft_01
+      parentName: grp_ctrl_teddy_finger_lft
+      position: {x: -0.043013766, y: -2.842171e-16, z: -0.0009971652}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_middle_lft_01
+      parentName: offset_ctrl_teddy_middle_lft_01
+      position: {x: -0, y: -2.842171e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_middle_lft_01
+      parentName: dkg_ctrl_teddy_middle_lft_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_middle_lft_02
+      parentName: ctrl_teddy_middle_lft_01
+      position: {x: -0.08296479, y: -1.065814e-15, z: -5.3290704e-17}
+      rotation: {x: -5.2041704e-18, y: -1.3877788e-17, z: -5.637851e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_middle_lft_02
+      parentName: offset_ctrl_teddy_middle_lft_02
+      position: {x: 1.4210854e-16, y: 0, z: -4.440892e-18}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_middle_lft_02
+      parentName: dkg_ctrl_teddy_middle_lft_02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_middle_lft_03
+      parentName: ctrl_teddy_middle_lft_02
+      position: {x: -0.054011185, y: -2.3092638e-16, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_middle_lft_03
+      parentName: offset_ctrl_teddy_middle_lft_03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_middle_lft_03
+      parentName: dkg_ctrl_teddy_middle_lft_03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_middle_lft_04
+      parentName: ctrl_teddy_middle_lft_03
+      position: {x: -0.048133697, y: -4.973799e-16, z: 1.7763568e-17}
+      rotation: {x: 0, y: 0, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_middle_lft_04
+      parentName: offset_ctrl_teddy_middle_lft_04
+      position: {x: -0, y: 0, z: 4.440892e-18}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_middle_lft_04
+      parentName: dkg_ctrl_teddy_middle_lft_04
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_ring_lft_01
+      parentName: grp_ctrl_teddy_finger_lft
+      position: {x: -0.040101834, y: -2.842171e-16, z: -0.03576705}
+      rotation: {x: 0, y: -0.049092624, z: -0, w: 0.99879426}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_ring_lft_01
+      parentName: offset_ctrl_teddy_ring_lft_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_ring_lft_01
+      parentName: dkg_ctrl_teddy_ring_lft_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_ring_lft_02
+      parentName: ctrl_teddy_ring_lft_01
+      position: {x: -0.08474602, y: -3.907985e-16, z: -3.2196467e-17}
+      rotation: {x: 5.6378513e-18, y: 3.469447e-18, z: -5.5646677e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_ring_lft_02
+      parentName: offset_ctrl_teddy_ring_lft_02
+      position: {x: -1.4210854e-16, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_ring_lft_02
+      parentName: dkg_ctrl_teddy_ring_lft_02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_ring_lft_03
+      parentName: ctrl_teddy_ring_lft_02
+      position: {x: -0.050500173, y: 7.5495166e-17, z: -1.3322676e-17}
+      rotation: {x: 0, y: 0, z: 2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_ring_lft_03
+      parentName: offset_ctrl_teddy_ring_lft_03
+      position: {x: 1.4210854e-16, y: 0, z: 8.881784e-18}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_ring_lft_03
+      parentName: dkg_ctrl_teddy_ring_lft_03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_ring_lft_04
+      parentName: ctrl_teddy_ring_lft_03
+      position: {x: -0.044231232, y: -5.684342e-16, z: -4.8849813e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_ring_lft_04
+      parentName: offset_ctrl_teddy_ring_lft_04
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_ring_lft_04
+      parentName: dkg_ctrl_teddy_ring_lft_04
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_thumb_lft_01
+      parentName: grp_ctrl_teddy_finger_lft
+      position: {x: -0.033594567, y: -0.012326351, z: 0.03936722}
+      rotation: {x: 0.46596527, y: 0.3878843, z: -0.017133264, w: 0.7950652}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_thumb_lft_01
+      parentName: offset_ctrl_teddy_thumb_lft_01
+      position: {x: -4.440892e-18, y: 0, z: -7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_thumb_lft_01
+      parentName: dkg_ctrl_teddy_thumb_lft_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_thumb_lft_02
+      parentName: ctrl_teddy_thumb_lft_01
+      position: {x: -0.07648591, y: 1.065814e-15, z: -5.684342e-16}
+      rotation: {x: -2.63678e-16, y: -1.3877788e-17, z: 8.326673e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_thumb_lft_02
+      parentName: offset_ctrl_teddy_thumb_lft_02
+      position: {x: 2.6645352e-17, y: -2.842171e-16, z: -7.105427e-17}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_thumb_lft_02
+      parentName: dkg_ctrl_teddy_thumb_lft_02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_thumb_lft_03
+      parentName: ctrl_teddy_thumb_lft_02
+      position: {x: -0.03606751, y: -4.973799e-16, z: 1.1368684e-15}
+      rotation: {x: 0, y: 0, z: 1.6653345e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_thumb_lft_03
+      parentName: offset_ctrl_teddy_thumb_lft_03
+      position: {x: -5.3290704e-17, y: 2.842171e-16, z: 7.105427e-17}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_thumb_lft_03
+      parentName: dkg_ctrl_teddy_thumb_lft_03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_bend_lft
+      parentName: grp_teddy_ctrl_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_forearm_bend_lft
+      parentName: grp_teddy_bend_lft
+      position: {x: -0.19457342, y: 1.0835592, z: 0.02770706}
+      rotation: {x: -0.04199596, y: 0.0122643905, z: 0.684153, w: 0.7280252}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_forearm_bend_lft
+      parentName: offset_ctrl_teddy_forearm_bend_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_shoulder_bend_lft
+      parentName: grp_teddy_bend_lft
+      position: {x: -0.15831618, y: 1.3081205, z: 0.020606233}
+      rotation: {x: -0.018468034, y: -0.024068007, z: 0.6084812, w: 0.7929882}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_shoulder_bend_lft
+      parentName: offset_ctrl_teddy_shoulder_bend_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_elbow_bend_lft
+      parentName: grp_teddy_bend_lft
+      position: {x: -0.18710431, y: 1.2004836, z: 0.018857121}
+      rotation: {x: -0.04199596, y: 0.0122643905, z: 0.684153, w: 0.7280252}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_elbow_bend_lft
+      parentName: offset_ctrl_teddy_elbow_bend_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_shin_bend_lft
+      parentName: grp_teddy_bend_lft
+      position: {x: -0.06877118, y: 0.34731513, z: -0.021465506}
+      rotation: {x: 0.51390713, y: 0.48569486, z: 0.51390713, w: 0.48569486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_shin_bend_lft
+      parentName: offset_ctrl_teddy_shin_bend_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_thigh_bend_lft
+      parentName: grp_teddy_bend_lft
+      position: {x: -0.06877118, y: 0.76967335, z: -0.011913934}
+      rotation: {x: 0.49412674, y: 0.5058051, z: 0.49412674, w: 0.5058051}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_thigh_bend_lft
+      parentName: offset_ctrl_teddy_thigh_bend_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_knee_bend_lft
+      parentName: grp_teddy_bend_lft
+      position: {x: -0.06877118, y: 0.5904914, z: -0.007727994}
+      rotation: {x: 0.51390713, y: 0.48569486, z: 0.51390713, w: 0.48569486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_knee_bend_lft
+      parentName: offset_ctrl_teddy_knee_bend_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_shoulder_translate_lft
+      parentName: grp_teddy_ctrl_lft
+      position: {x: -0.18066414, y: 1.4325297, z: -0.014635079}
+      rotation: {x: 0, y: -0.030337062, z: -0, w: 0.99953973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_shoulder_translate_lft
+      parentName: offset_ctrl_teddy_shoulder_translate_lft
+      position: {x: 0.053285286, y: -0.016772352, z: 0.03382113}
+      rotation: {x: 0.17502914, y: -2.1378077e-10, z: -0.010634426, w: 0.98450583}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_shoulder_translate_lft
+      parentName: dkg_ctrl_teddy_shoulder_translate_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_thighTranslate_lft
+      parentName: grp_teddy_ctrl_lft
+      position: {x: -0.06877118, y: 0.948855, z: -0.0160999}
+      rotation: {x: 0.49412674, y: 0.5058051, z: 0.49412674, w: 0.5058051}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_thighTranslate_lft
+      parentName: offset_ctrl_teddy_thighTranslate_lft
+      position: {x: 1.4210854e-16, y: 7.771561e-18, z: 8.881784e-18}
+      rotation: {x: 1.3877789e-16, y: 5.8286714e-16, z: -4.17551e-39, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_thighTranslate_lft
+      parentName: dkg_ctrl_teddy_thighTranslate_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_attr_arm_lft
+      parentName: grp_teddy_ctrl_lft
+      position: {x: -0.2444729, y: 0.9292432, z: 0.037795167}
+      rotation: {x: -0.04199596, y: 0.0122643905, z: 0.684153, w: 0.7280252}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_attr_arm_lft
+      parentName: offset_ctrl_teddy_attr_arm_lft
+      position: {x: -0, y: -2.842171e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_attr_leg_lft
+      parentName: grp_teddy_ctrl_lft
+      position: {x: -0.06877118, y: 0.1041388, z: -0.09520302}
+      rotation: {x: 5.551115e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_attr_leg_lft
+      parentName: offset_ctrl_teddy_attr_leg_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_clavicle_lft
+      parentName: grp_teddy_ctrl_lft
+      position: {x: -0.03809028, y: 1.3925406, z: 0.01268908}
+      rotation: {x: 0.81319463, y: -0.07196393, z: -0.11279611, w: 0.56640327}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_clavicle_lft
+      parentName: offset_ctrl_teddy_clavicle_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_toe_lft
+      parentName: grp_teddy_ctrl_lft
+      position: {x: -0.06877118, y: 0.016944174, z: 0.08873977}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_toe_lft
+      parentName: offset_ctrl_teddy_toe_lft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_ctrl_rgt
+      parentName: ctrl_teddy_general
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_ctrl_ik_rgt
+      parentName: grp_teddy_ctrl_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_ctrl_arm_ik_rgt
+      parentName: grp_teddy_ctrl_ik_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_hand_ik_rgt
+      parentName: grp_teddy_ctrl_arm_ik_rgt
+      position: {x: 0.638067, y: 1.43253, z: -0.0234321}
+      rotation: {x: 0.9999496, y: 6.148564e-19, z: 0.010041366, w: -6.122925e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_hand_ik_rgt
+      parentName: offset_ctrl_teddy_hand_ik_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_pv_teddy_elbow_rgt
+      parentName: grp_teddy_ctrl_arm_ik_rgt
+      position: {x: 0.40312198, y: 1.43253, z: -0.3072637}
+      rotation: {x: 0.99953973, y: 2.2602872e-10, z: -0.030337062, w: 0.0000000074471513}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_pv_teddy_elbow_rgt
+      parentName: offset_pv_teddy_elbow_rgt
+      position: {x: 2.842171e-16, y: 5.684342e-16, z: -3.5527136e-17}
+      rotation: {x: -6.920637e-11, y: 1.6029587e-17, z: -8.550057e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pv_teddy_elbow_rgt
+      parentName: dkg_pv_teddy_elbow_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locVislink_pv_teddy_elbow_rgt
+      parentName: pv_teddy_elbow_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: visLink_pv_teddy_elbow_rgt_skin_teddy_forearm_rgt
+      parentName: pv_teddy_elbow_rgt
+      position: {x: -0.40408725, y: 1.43253, z: -0.0036515458}
+      rotation: {x: 0.99953973, y: -2.2644553e-10, z: -0.030337062, w: -0.000000007460884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_ctrl_leg_ik_rgt
+      parentName: grp_teddy_ctrl_ik_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_foot_ik_rgt
+      parentName: grp_teddy_ctrl_leg_ik_rgt
+      position: {x: 0.0687712, y: 0.104139, z: -0.035203}
+      rotation: {x: 1.43878e-40, y: 1.110223e-16, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_foot_ik_rgt
+      parentName: offset_ctrl_teddy_foot_ik_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grpLoc_teddy_inside_rgt
+      parentName: ctrl_teddy_foot_ik_rgt
+      position: {x: -0.035741214, y: -0.09619482, z: 0.12394277}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grpLoc_teddy_outside_rgt
+      parentName: grpLoc_teddy_inside_rgt
+      position: {x: 0.0916147, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grpLoc_teddy_heel_rgt
+      parentName: grpLoc_teddy_outside_rgt
+      position: {x: -0.0558735, y: -0.007944173, z: -0.2049857}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grpLoc_teddy_toe_rgt
+      parentName: grpLoc_teddy_heel_rgt
+      position: {x: -8.881784e-18, y: 0, z: 0.2772571}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grpLoc_teddy_ball_rgt
+      parentName: grpLoc_teddy_toe_rgt
+      position: {x: 8.881784e-18, y: 0.016944174, z: -0.072271414}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grpLoc_teddy_ankle_rgt
+      parentName: grpLoc_teddy_ball_rgt
+      position: {x: -0, y: 0.08719463, z: -0.12394279}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_pv_teddy_knee_rgt
+      parentName: grp_teddy_ctrl_leg_ik_rgt
+      position: {x: 0.0687712, y: 0.590491, z: 0.36172193}
+      rotation: {x: 0.5058051, y: -0.49412674, z: 0.5058051, w: -0.49412674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_pv_teddy_knee_rgt
+      parentName: offset_pv_teddy_knee_rgt
+      position: {x: -0.0000026911075, y: 0.000014353802, z: 0.00000023533488}
+      rotation: {x: -0.0000017157886, y: -0.000001267992, z: 2.142092e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pv_teddy_knee_rgt
+      parentName: dkg_pv_teddy_knee_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locVislink_pv_teddy_knee_rgt
+      parentName: pv_teddy_knee_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: visLink_pv_teddy_knee_rgt_skin_teddy_shin_rgt
+      parentName: pv_teddy_knee_rgt
+      position: {x: 0.59051037, y: 0.0060650483, z: -0.0687712}
+      rotation: {x: 0.5058051, y: -0.49412674, z: 0.5058051, w: 0.49412674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_ctrl_fk_rgt
+      parentName: grp_teddy_ctrl_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_shoulder_fk_rgt
+      parentName: grp_teddy_ctrl_fk_rgt
+      position: {x: 0.12952787, y: 1.4157575, z: 0.022355398}
+      rotation: {x: 0.99953973, y: 2.260288e-10, z: -0.030337062, w: 0.000000007447152}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_shoulder_fk_rgt
+      parentName: offset_ctrl_teddy_shoulder_fk_rgt
+      position: {x: -0, y: 1.1368684e-15, z: -2.7755574e-18}
+      rotation: {x: 6.96833e-17, y: -1.7347236e-17, z: -4.526826e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_shoulder_fk_rgt
+      parentName: dkg_ctrl_teddy_shoulder_fk_rgt
+      position: {x: -0, y: 5.684342e-16, z: -5.551115e-19}
+      rotation: {x: 0, y: 0, z: 0.6087614, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_forearm_fk_rgt
+      parentName: ctrl_teddy_shoulder_fk_rgt
+      position: {x: 0.22286823, y: 7.105427e-17, z: -0.00000001001162}
+      rotation: {x: 0.00000001058902, y: 0.040372275, z: -4.278517e-10, w: 0.9991847}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_forearm_fk_rgt
+      parentName: offset_ctrl_teddy_forearm_fk_rgt
+      position: {x: -7.105427e-17, y: 2.842171e-16, z: 4.440892e-18}
+      rotation: {x: -0.0054588364, y: -0.038790684, z: 0.100423716, w: 0.9941733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_hand_fk_rgt
+      parentName: ctrl_teddy_forearm_fk_rgt
+      position: {x: 0.23499238, y: 2.8250866e-10, z: -0.00000004868173}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_hand_fk_rgt
+      parentName: offset_ctrl_teddy_hand_fk_rgt
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_thigh_fk_rgt
+      parentName: grp_teddy_ctrl_fk_rgt
+      position: {x: 0.0687712, y: 0.948855, z: -0.0160999}
+      rotation: {x: 0.5058051, y: -0.49412674, z: 0.5058051, w: -0.49412674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_thigh_fk_rgt
+      parentName: offset_ctrl_teddy_thigh_fk_rgt
+      position: {x: 1.4210854e-16, y: 6.661338e-18, z: 0}
+      rotation: {x: 2.2206128e-16, y: -1.4277534e-18, z: 0.000006761514, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_thigh_fk_rgt
+      parentName: dkg_ctrl_teddy_thigh_fk_rgt
+      position: {x: 1.4210854e-16, y: 3.330669e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_shin_fk_rgt
+      parentName: ctrl_teddy_thigh_fk_rgt
+      position: {x: 0.35846177, y: -0.000000030020644, z: 1.6893154e-14}
+      rotation: {x: 0, y: 0, z: 0.039883997, w: 0.99920434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_shin_fk_rgt
+      parentName: offset_ctrl_teddy_shin_fk_rgt
+      position: {x: -0, y: 0, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_foot_fk_rgt
+      parentName: ctrl_teddy_shin_fk_rgt
+      position: {x: 0.48712745, y: -0.000011394575, z: -0.00000002429092}
+      rotation: {x: 0.48569486, y: -0.51390713, z: 0.48569486, w: 0.51390713}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_foot_fk_rgt
+      parentName: offset_ctrl_teddy_foot_fk_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_toe_rgt
+      parentName: grp_teddy_ctrl_rgt
+      position: {x: 0.068771176, y: 0.10413861, z: -0.035203025}
+      rotation: {x: 0.000006761514, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_ctrl_teddy_finger_rgt
+      parentName: grp_teddy_ctrl_rgt
+      position: {x: 0.2012915, y: 0.9659198, z: 0.018707072}
+      rotation: {x: 0.727784, y: -0.685081, z: -0.021848043, w: 0.022743404}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_index_rgt_01
+      parentName: grp_ctrl_teddy_finger_rgt
+      position: {x: 0.041373562, y: 5.684342e-16, z: -0.031083954}
+      rotation: {x: 0, y: 0.05451315, z: -0, w: 0.99851304}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_index_rgt_01
+      parentName: offset_ctrl_teddy_index_rgt_01
+      position: {x: 1.4210854e-16, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_index_rgt_01
+      parentName: dkg_ctrl_teddy_index_rgt_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_index_rgt_02
+      parentName: ctrl_teddy_index_rgt_01
+      position: {x: 0.08394122, y: -5.684342e-16, z: 0.000000055517887}
+      rotation: {x: 2.4286129e-17, y: 2.7755576e-17, z: -1.6479873e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_index_rgt_02
+      parentName: offset_ctrl_teddy_index_rgt_02
+      position: {x: -0, y: -2.842171e-16, z: -8.881784e-18}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_index_rgt_02
+      parentName: dkg_ctrl_teddy_index_rgt_02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_index_rgt_03
+      parentName: ctrl_teddy_index_rgt_02
+      position: {x: 0.04842439, y: 2.3092638e-16, z: -0.00000011712029}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_index_rgt_03
+      parentName: offset_ctrl_teddy_index_rgt_03
+      position: {x: 1.4210854e-16, y: -2.842171e-16, z: 1.7763568e-17}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_index_rgt_03
+      parentName: dkg_ctrl_teddy_index_rgt_03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_index_rgt_04
+      parentName: ctrl_teddy_index_rgt_03
+      position: {x: 0.043722205, y: -6.750156e-16, z: 0.000000020750763}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_index_rgt_04
+      parentName: offset_ctrl_teddy_index_rgt_04
+      position: {x: 1.4210854e-16, y: -2.842171e-16, z: -8.881784e-18}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_index_rgt_04
+      parentName: dkg_ctrl_teddy_index_rgt_04
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_middle_rgt_01
+      parentName: grp_ctrl_teddy_finger_rgt
+      position: {x: 0.043013647, y: 5.684342e-16, z: 0.0009971891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_middle_rgt_01
+      parentName: offset_ctrl_teddy_middle_rgt_01
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_middle_rgt_01
+      parentName: dkg_ctrl_teddy_middle_rgt_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_middle_rgt_02
+      parentName: ctrl_teddy_middle_rgt_01
+      position: {x: 0.082965724, y: 3.5527135e-16, z: -0.000000005436412}
+      rotation: {x: 6.938894e-18, y: 1.3877788e-17, z: -1.1069704e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_middle_rgt_02
+      parentName: offset_ctrl_teddy_middle_rgt_02
+      position: {x: 1.4210854e-16, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_middle_rgt_02
+      parentName: dkg_ctrl_teddy_middle_rgt_02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_middle_rgt_03
+      parentName: ctrl_teddy_middle_rgt_02
+      position: {x: 0.05401089, y: 2.264855e-16, z: 0.000000031591046}
+      rotation: {x: 0, y: -0, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_middle_rgt_03
+      parentName: offset_ctrl_teddy_middle_rgt_03
+      position: {x: -1.4210854e-16, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_middle_rgt_03
+      parentName: dkg_ctrl_teddy_middle_rgt_03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_middle_rgt_04
+      parentName: ctrl_teddy_middle_rgt_03
+      position: {x: 0.048133705, y: 1.7763567e-16, z: 0.000000007609471}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_middle_rgt_04
+      parentName: offset_ctrl_teddy_middle_rgt_04
+      position: {x: 1.4210854e-16, y: 0, z: 8.881784e-18}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_middle_rgt_04
+      parentName: dkg_ctrl_teddy_middle_rgt_04
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_ring_rgt_01
+      parentName: grp_ctrl_teddy_finger_rgt
+      position: {x: 0.040101822, y: 5.684342e-16, z: 0.035767026}
+      rotation: {x: 0, y: -0.049092624, z: -0, w: 0.99879426}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_ring_rgt_01
+      parentName: offset_ctrl_teddy_ring_rgt_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_ring_rgt_01
+      parentName: dkg_ctrl_teddy_ring_rgt_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_ring_rgt_02
+      parentName: ctrl_teddy_ring_rgt_01
+      position: {x: 0.08474661, y: -8.171241e-16, z: -0.0000000031169458}
+      rotation: {x: -5.8853e-41, y: 1.0408341e-17, z: 1.6696713e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_ring_rgt_02
+      parentName: offset_ctrl_teddy_ring_rgt_02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_ring_rgt_02
+      parentName: dkg_ctrl_teddy_ring_rgt_02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_ring_rgt_03
+      parentName: ctrl_teddy_ring_rgt_02
+      position: {x: 0.050500095, y: -5.32907e-16, z: -0.000000046911687}
+      rotation: {x: 0, y: 0, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_ring_rgt_03
+      parentName: offset_ctrl_teddy_ring_rgt_03
+      position: {x: -1.4210854e-16, y: 0, z: 8.881784e-18}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_ring_rgt_03
+      parentName: dkg_ctrl_teddy_ring_rgt_03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_ring_rgt_04
+      parentName: ctrl_teddy_ring_rgt_03
+      position: {x: 0.044230975, y: -6.750156e-16, z: 0.000000034697962}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_ring_rgt_04
+      parentName: offset_ctrl_teddy_ring_rgt_04
+      position: {x: 1.4210854e-16, y: 0, z: -8.881784e-18}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_ring_rgt_04
+      parentName: dkg_ctrl_teddy_ring_rgt_04
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_thumb_rgt_01
+      parentName: grp_ctrl_teddy_finger_rgt
+      position: {x: 0.033595335, y: 0.01233, z: -0.039367188}
+      rotation: {x: 0.46596527, y: 0.3878843, z: -0.017133264, w: 0.7950652}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_thumb_rgt_01
+      parentName: offset_ctrl_teddy_thumb_rgt_01
+      position: {x: 1.0658141e-16, y: 2.842171e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_thumb_rgt_01
+      parentName: dkg_ctrl_teddy_thumb_rgt_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_thumb_rgt_02
+      parentName: ctrl_teddy_thumb_rgt_01
+      position: {x: 0.0764844, y: -0.0000041587555, z: -0.00000009572336}
+      rotation: {x: 2.7755576e-17, y: 1.8041124e-16, z: -5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_thumb_rgt_02
+      parentName: offset_ctrl_teddy_thumb_rgt_02
+      position: {x: -4.4408918e-17, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_thumb_rgt_02
+      parentName: dkg_ctrl_teddy_thumb_rgt_02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_thumb_rgt_03
+      parentName: ctrl_teddy_thumb_rgt_02
+      position: {x: 0.036069147, y: 0.0000046203386, z: 0.00000009349458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_thumb_rgt_03
+      parentName: offset_ctrl_teddy_thumb_rgt_03
+      position: {x: 7.105427e-17, y: 0, z: 7.105427e-17}
+      rotation: {x: 0, y: 0, z: 0.1305262, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_thumb_rgt_03
+      parentName: dkg_ctrl_teddy_thumb_rgt_03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_teddy_bend_rgt
+      parentName: grp_teddy_ctrl_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_forearm_bend_rgt
+      parentName: grp_teddy_bend_rgt
+      position: {x: 0.19419788, y: 1.0832015, z: 0.018782092}
+      rotation: {x: 0.727784, y: -0.685081, z: -0.021847896, w: 0.02274336}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_forearm_bend_rgt
+      parentName: offset_ctrl_teddy_forearm_bend_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_shoulder_bend_rgt
+      parentName: grp_teddy_bend_rgt
+      position: {x: 0.15831605, y: 1.3081205, z: 0.02060616}
+      rotation: {x: 0.7929882, y: -0.6084812, z: -0.024068324, w: 0.018467743}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_shoulder_bend_rgt
+      parentName: offset_ctrl_teddy_shoulder_bend_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_elbow_bend_rgt
+      parentName: grp_teddy_bend_rgt
+      position: {x: 0.18710424, y: 1.2004834, z: 0.018857185}
+      rotation: {x: 0.727784, y: -0.685081, z: -0.021847896, w: 0.02274336}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_elbow_bend_rgt
+      parentName: offset_ctrl_teddy_elbow_bend_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_shin_bend_rgt
+      parentName: grp_teddy_bend_rgt
+      position: {x: 0.06877118, y: 0.34731475, z: -0.021468053}
+      rotation: {x: -0.48569754, y: 0.51390487, z: -0.48569718, w: 0.5139046}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_shin_bend_rgt
+      parentName: offset_ctrl_teddy_shin_bend_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_thigh_bend_rgt
+      parentName: grp_teddy_bend_rgt
+      position: {x: 0.0687712, y: 0.76967293, z: -0.011916358}
+      rotation: {x: 0.50580186, y: -0.4941304, z: 0.5058015, w: -0.49413002}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_thigh_bend_rgt
+      parentName: offset_ctrl_teddy_thigh_bend_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_knee_bend_rgt
+      parentName: grp_teddy_bend_rgt
+      position: {x: 0.0687712, y: 0.5904909, z: -0.0077328333}
+      rotation: {x: -0.48569757, y: 0.51390487, z: -0.4856972, w: 0.5139045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_knee_bend_rgt
+      parentName: offset_ctrl_teddy_knee_bend_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_shoulderTranslate_rgt
+      parentName: grp_teddy_ctrl_rgt
+      position: {x: 0.180664, y: 1.43253, z: -0.0146351}
+      rotation: {x: 0.99953973, y: 2.2602872e-10, z: -0.030337062, w: 0.0000000074471513}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_shoulderTranslate_rgt
+      parentName: offset_ctrl_teddy_shoulderTranslate_rgt
+      position: {x: -0.053285334, y: 0.016772347, z: -0.0338212}
+      rotation: {x: 0.17502914, y: 4.2265684e-11, z: -0.010634426, w: 0.98450583}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_shoulderTranslate_rgt
+      parentName: dkg_ctrl_teddy_shoulderTranslate_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_thighTranslate_rgt
+      parentName: grp_teddy_ctrl_rgt
+      position: {x: 0.0687712, y: 0.948855, z: -0.0160999}
+      rotation: {x: 0.50580174, y: -0.49413016, z: 0.50580174, w: -0.49413016}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dkg_ctrl_teddy_thighTranslate_rgt
+      parentName: offset_ctrl_teddy_thighTranslate_rgt
+      position: {x: -0, y: 5.5511148e-18, z: -1.7763568e-17}
+      rotation: {x: -5.551115e-17, y: 5.551115e-17, z: 3.597e-41, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_thighTranslate_rgt
+      parentName: dkg_ctrl_teddy_thighTranslate_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_attr_arm_rgt
+      parentName: grp_teddy_ctrl_rgt
+      position: {x: 0.24355395, y: 0.9284045, z: 0.01615992}
+      rotation: {x: 0.727784, y: -0.685081, z: -0.021848043, w: 0.022743404}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_attr_arm_rgt
+      parentName: offset_ctrl_teddy_attr_arm_rgt
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_attr_leg_rgt
+      parentName: grp_teddy_ctrl_rgt
+      position: {x: 0.068771176, y: 0.10413861, z: -0.09520303}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_attr_leg_rgt
+      parentName: offset_ctrl_teddy_attr_leg_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_clavicle_rgt
+      parentName: grp_teddy_ctrl_rgt
+      position: {x: 0.038090255, y: 1.3925422, z: 0.012689648}
+      rotation: {x: -0.56640327, y: -0.11279611, z: 0.07196393, w: 0.81319463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_clavicle_rgt
+      parentName: offset_ctrl_teddy_clavicle_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_toe_rgt
+      parentName: grp_teddy_ctrl_rgt
+      position: {x: 0.068771176, y: 0.016943814, z: 0.088739775}
+      rotation: {x: -5.4512314e-13, y: 0.0000008802642, z: 0.00000061927216, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_toe_rgt
+      parentName: offset_ctrl_teddy_toe_rgt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_head
+      parentName: ctrl_teddy_general
+      position: {x: -3.1023693e-17, y: 1.5287684, z: 0.07767842}
+      rotation: {x: 0.5573454, y: -0.43516216, z: -0.5573454, w: 0.43516216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_head
+      parentName: offset_ctrl_teddy_head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_headHandle
+      parentName: ctrl_teddy_head
+      position: {x: 0.0145682655, y: 0.0012442488, z: 5.4047646e-18}
+      rotation: {x: 0.5573454, y: -0.43516216, z: -0.5573454, w: -0.43516216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_headHandle
+      parentName: offset_cls_teddy_headHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_eyes
+      parentName: ctrl_teddy_head
+      position: {x: -0.11307478, y: 0.16936707, z: 0.00000012871759}
+      rotation: {x: 0.5573454, y: -0.43516216, z: -0.5573454, w: -0.43516216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_headDeform
+      parentName: ctrl_teddy_head
+      position: {x: -0.2542741, y: -0.038247533, z: -1.9298544e-17}
+      rotation: {x: 0.5573454, y: -0.43516216, z: -0.5573454, w: -0.43516216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_ear_lft
+      parentName: ctrl_teddy_head
+      position: {x: -0.020178175, y: 0.011273702, z: 0.09066593}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_ear_lft
+      parentName: offset_ctrl_teddy_ear_lft
+      position: {x: -0.05264, y: -0.01316, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_ear_rgt
+      parentName: ctrl_teddy_head
+      position: {x: -0.020178175, y: 0.011273702, z: -0.0906659}
+      rotation: {x: 0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_ear_rgt
+      parentName: offset_ctrl_teddy_ear_rgt
+      position: {x: 0.05264, y: 0.01316, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_neck
+      parentName: ctrl_teddy_general
+      position: {x: -2.214191e-17, y: 1.4523033, z: 0.03467543}
+      rotation: {x: 0.5799289, y: -0.40457696, z: -0.5799289, w: 0.40457696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_neck
+      parentName: offset_ctrl_teddy_neck
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_neckHandle
+      parentName: ctrl_teddy_neck
+      position: {x: -0.014435068, y: 0.0023262247, z: 9.656573e-18}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_neckHandle
+      parentName: offset_cls_teddy_neckHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_ctt_teddy_neckTohead
+      parentName: ctrl_teddy_neck
+      position: {x: -0.086610414, y: 0.013957348, z: 1.3530514e-17}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_root
+      parentName: ctrl_teddy_general
+      position: {x: -0, y: 1.0200988, z: -0.016099874}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_root
+      parentName: offset_ctrl_teddy_root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_tronc1
+      parentName: ctrl_teddy_root
+      position: {x: -0.098062806, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_tronc1
+      parentName: offset_ctrl_teddy_tronc1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_tronc2
+      parentName: ctrl_teddy_tronc1
+      position: {x: -0.098062806, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_tronc2
+      parentName: offset_ctrl_teddy_tronc2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_chest
+      parentName: ctrl_teddy_tronc2
+      position: {x: -0.098062806, y: -3.330669e-17, z: -1.08468374e-32}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_chest
+      parentName: offset_ctrl_teddy_chest
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.1753519, w: 0.98450583}
+      scale: {x: 1, y: 1, z: 0.708}
+    - name: offset_cls_teddy_chestHandle
+      parentName: ctrl_teddy_chest
+      position: {x: 0.016343802, y: 2.220446e-18, z: 0}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_chestHandle
+      parentName: offset_cls_teddy_chestHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_backPack
+      parentName: ctrl_teddy_chest
+      position: {x: -0.040071424, y: -0.10591296, z: -2.3517402e-17}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_tronc2Handle
+      parentName: ctrl_teddy_tronc2
+      position: {x: 2.5579537e-15, y: -1.11022296e-17, z: -2.9582283e-33}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_tronc2Handle
+      parentName: offset_cls_teddy_tronc2Handle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_tronc1Handle
+      parentName: ctrl_teddy_tronc1
+      position: {x: 1.1368684e-15, y: 6.661338e-18, z: 1.9721522e-33}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_tronc1Handle
+      parentName: offset_cls_teddy_tronc1Handle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_ctrl_teddy_pelvis
+      parentName: ctrl_teddy_root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ctrl_teddy_pelvis
+      parentName: offset_ctrl_teddy_pelvis
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: offset_cls_teddy_pelvisHandle
+      parentName: ctrl_teddy_pelvis
+      position: {x: -0.016343802, y: -2.220446e-18, z: -9.860761e-34}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cls_teddy_pelvisHandle
+      parentName: offset_cls_teddy_pelvisHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_ctt_teddy_followLegFK_world_lft
+      parentName: ctrl_teddy_fixe
+      position: {x: -0.06877118, y: 0.9488553, z: -0.016099874}
+      rotation: {x: 0.49412674, y: 0.5058051, z: 0.49412674, w: 0.5058051}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_ctt_teddy_followShoulderFK_world_rgt
+      parentName: ctrl_teddy_fixe
+      position: {x: 0.180664, y: 1.43253, z: -0.0146351}
+      rotation: {x: 0.99953973, y: 2.2602872e-10, z: -0.030337062, w: 0.000000007447152}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_ctt_teddy_followShoulderFK_world_lft
+      parentName: ctrl_teddy_fixe
+      position: {x: -0.18066414, y: 1.4325297, z: -0.014635079}
+      rotation: {x: 0, y: -0.030337062, z: -0, w: 0.99953973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: grp_ctt_teddy_followLegFK_world_rgt
+      parentName: ctrl_teddy_fixe
+      position: {x: 0.0687712, y: 0.948855, z: -0.0160999}
+      rotation: {x: 0.50580174, y: -0.49413016, z: 0.50580174, w: -0.49413016}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left1
+      parentName: nerd_idle1(Clone)
+      position: {x: 10.000999, y: 0.522864, z: 0.021823982}
+      rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: ddbee946e42d873cdbaf0e712efcd837, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

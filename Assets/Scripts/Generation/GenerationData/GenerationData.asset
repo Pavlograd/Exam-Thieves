@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2e5fa9f6d3f9f14a8201a781bcd5091, type: 3}
+  m_Name: GenerationData
+  m_EditorClassIdentifier: 
+  rooms:
+  - prefab: {fileID: 8712543076670783909, guid: aaa4e6c2d17f84e8492cd526ecc51211, type: 3}
+    width: 2
+    heigth: 2
+    rotation: 0
+    probability: 1
+    maxNumber: 1
+    dynamicMaxNumber: 0
+    corridorPosition: {x: 0, y: 2}
+    doorPosition: {x: 0, y: 1}
+  - prefab: {fileID: 1899958215486951856, guid: 4ea8d212ee214d347915cb81e2775024, type: 3}
+    width: 2
+    heigth: 2
+    rotation: 0
+    probability: 1
+    maxNumber: 1
+    dynamicMaxNumber: 0
+    corridorPosition: {x: 0, y: 2}
+    doorPosition: {x: 0, y: 1}
+  - prefab: {fileID: 3792255468558498658, guid: 16d59a82fcc399b4384e2d569c9a8a95, type: 3}
+    width: 3
+    heigth: 2
+    rotation: 0
+    probability: 1
+    maxNumber: 5
+    dynamicMaxNumber: 0
+    corridorPosition: {x: 1, y: 2}
+    doorPosition: {x: 1, y: 1}
+  - prefab: {fileID: 3185897221637936950, guid: b4e1a116c027a6f4a9c40233d6c62e2e, type: 3}
+    width: 3
+    heigth: 3
+    rotation: 0
+    probability: 1
+    maxNumber: 5
+    dynamicMaxNumber: 0
+    corridorPosition: {x: 1, y: 3}
+    doorPosition: {x: 1, y: 2}
+  - prefab: {fileID: 5156643746506113780, guid: 50f670d18ccfb57449ae5e6fa83fdcd3, type: 3}
+    width: 3
+    heigth: 2
+    rotation: 0
+    probability: 5
+    maxNumber: 3
+    dynamicMaxNumber: 0
+    corridorPosition: {x: 3, y: 0}
+    doorPosition: {x: 2, y: 0}
+  - prefab: {fileID: 1977753489938187605, guid: b4d344e705ee8a843b339666ae430d83, type: 3}
+    width: 6
+    heigth: 3
+    rotation: 0
+    probability: 1
+    maxNumber: 2
+    dynamicMaxNumber: 0
+    corridorPosition: {x: 0, y: -3}
+    doorPosition: {x: 0, y: -2}
+  - prefab: {fileID: 5156643746506113780, guid: 321768c42b9473248a73ab956fa87da3, type: 3}
+    width: 6
+    heigth: 2
+    rotation: 0
+    probability: 5
+    maxNumber: 3
+    dynamicMaxNumber: 0
+    corridorPosition: {x: 1, y: -2}
+    doorPosition: {x: 1, y: -1}
+  - prefab: {fileID: 5156643746506113780, guid: ecfc3e6914d49a346a495b02dc5ad5c3, type: 3}
+    width: 2
+    heigth: 2
+    rotation: 0
+    probability: 5
+    maxNumber: 3
+    dynamicMaxNumber: 0
+    corridorPosition: {x: 0, y: 2}
+    doorPosition: {x: 0, y: 1}
+  - prefab: {fileID: 2458974675036384759, guid: b2b79d13bceef754cbcd1c26b04e5581, type: 3}
+    width: 3
+    heigth: 2
+    rotation: 0
+    probability: 1
+    maxNumber: 3
+    dynamicMaxNumber: 0
+    corridorPosition: {x: 1, y: 2}
+    doorPosition: {x: 1, y: 1}
+  - prefab: {fileID: 1702693126077941020, guid: dbadf2372fb4298429c7633268bf818e, type: 3}
+    width: 3
+    heigth: 2
+    rotation: 0
+    probability: 1
+    maxNumber: 3
+    dynamicMaxNumber: 0
+    corridorPosition: {x: 0, y: 2}
+    doorPosition: {x: 0, y: 1}
+  - prefab: {fileID: 3185897221637936950, guid: b4e1a116c027a6f4a9c40233d6c62e2e, type: 3}
+    width: 3
+    heigth: 3
+    rotation: 0
+    probability: 10
+    maxNumber: 10
+    dynamicMaxNumber: 0
+    corridorPosition: {x: 1, y: 3}
+    doorPosition: {x: 1, y: 2}
+  - prefab: {fileID: 3792255468558498658, guid: 16d59a82fcc399b4384e2d569c9a8a95, type: 3}
+    width: 3
+    heigth: 2
+    rotation: 0
+    probability: 100
+    maxNumber: 0
+    dynamicMaxNumber: 0
+    corridorPosition: {x: 1, y: 2}
+    doorPosition: {x: 1, y: 1}
+  schoolElements:
+  - prefab: {fileID: 129595465118335102, guid: 21253ddb026df6a4fa387c6b80d51f4d, type: 3}
+    corridors: 00000000
+    probability: 5
+    maxNumber: 0
+    number: 26
+    dynamicMaxNumber: 0
+  - prefab: {fileID: 129595465118335102, guid: 92b83f9f6e5f28a4a8757c2acaa74b5e, type: 3}
+    corridors: 00000000
+    probability: 5
+    maxNumber: 0
+    number: 23
+    dynamicMaxNumber: 0
+  - prefab: {fileID: 6237306108035590082, guid: fd752fe8b784fe2f8b1ccd7eb8b7cdab, type: 3}
+    corridors: 00000000
+    probability: 45
+    maxNumber: 0
+    number: 640
+    dynamicMaxNumber: 0
+  - prefab: {fileID: 5347727487596765620, guid: ac23156cb8c7524469c471786aa3844d, type: 3}
+    corridors: 00000000
+    probability: 3
+    maxNumber: 0
+    number: 25
+    dynamicMaxNumber: 0
+  prefabCorridor:
+  - {fileID: 6051678245913260763, guid: eb6cfb83e602f7a42a793012cc4a6b27, type: 3}
+  - {fileID: 4646449244472621467, guid: dfaa104776c6f364291b0fa092b1af3a, type: 3}
+  - {fileID: 2409194799207048051, guid: 48cb036591784364b86735783d61c8b4, type: 3}
+  - {fileID: 8460492918650923234, guid: 03b1b34dc2308ef46a78b70401fc426d, type: 3}
+  - {fileID: 3830089427817976155, guid: 6d28dac7f067bcd4fb6c7fcd159daa9e, type: 3}
+  offsetSize: 3
+  mapSize: 41

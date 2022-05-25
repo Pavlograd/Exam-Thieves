@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ff33cab18aa892abf719ea2ffacda2, type: 3}
+  m_Name: HairCustoData
+  m_EditorClassIdentifier: 
+  colors:
+  - {fileID: 2100000, guid: 7385e1093262cbe95bf5c60b753447b3, type: 2}
+  - {fileID: 2100000, guid: 0be1fa1b99405761c9ff1adeccef578c, type: 2}
+  - {fileID: 2100000, guid: 3ebb14b7e08eee91ba1e611462d7e338, type: 2}
+  - {fileID: 2100000, guid: a5ae08bdc5868bed7a739a6b260f6057, type: 2}
+  - {fileID: 2100000, guid: 232d79946cc5afd1ab71df16855669c0, type: 2}
+  - {fileID: 2100000, guid: 3971955b3a2076290a52e0007ee76d85, type: 2}
+  - {fileID: 2100000, guid: 2167d59438fece3258e8c184e8ff72e4, type: 2}
+  - {fileID: 2100000, guid: f19ba2ff4202170138faa8e7022d8ae8, type: 2}
+  - {fileID: 2100000, guid: c1ca56a0d8ea77c3995cccd4354612ca, type: 2}

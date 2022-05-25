@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a64b882d19d12e448e529a98faee4ed, type: 3}
+  m_Name: GenerationObjectsData
+  m_EditorClassIdentifier: 
+  _classRoomElements:
+  - prefab: {fileID: 9102853993886877567, guid: e4c5696173c40b54b9b9fadce15eb4a2, type: 3}
+    maxNumber: 3
+    highness: 0.5
+  - prefab: {fileID: 8798062082923551869, guid: 110ca38206d561b41910f11dc3d72d01, type: 3}
+    maxNumber: 35
+    highness: 1
+  - prefab: {fileID: 6784618303664196299, guid: e24a49142fe387c419cd06fe884aa1aa, type: 3}
+    maxNumber: 4
+    highness: 0.5
+  - prefab: {fileID: 6784618303664196299, guid: e24a49142fe387c419cd06fe884aa1aa, type: 3}
+    maxNumber: 4
+    highness: 1
+  mGuard: {fileID: 1435207709583001878, guid: e659e9c088db9f240a06f7a9384ac0ac, type: 3}
+  fGuard: {fileID: 5809844885212727572, guid: afb48557b784daf4eacee30df8f05f40, type: 3}
+  nbrGuards: 4
+  janitor: {fileID: 6704089745456357795, guid: 6b3efa5189dc7944fa009daf3555c69b, type: 3}
+  teacher: {fileID: 2673685680229960019, guid: 7e7142c99456e34468bc424d6b331e21, type: 3}
+  fTeacher: {fileID: 917276314647908966, guid: 2ce3d422d2ab9964587c3e78613f6b4b, type: 3}

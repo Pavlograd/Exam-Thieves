@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a377b7bc8a99d9a9d9c4b2d7b5b5fee9, type: 3}
+  m_Name: Influenceuse
+  m_EditorClassIdentifier: 
+  nameCharacters: Influenceuse
+  descCharacters: Can stun the guards with her phone
+  staminaRegenSpeed: 0.2
+  staminaBurnSpeed: 0.4
+  nameObjAnimation: teddy
+  _animator: {fileID: 9100000, guid: 985d1c0e0e0c6d984812ab1e248b9b59, type: 2}
+  skinPlayer: {fileID: 6632973647306015661, guid: 135cba8a72ca9a4c7a7ed073781cf383, type: 3}
+  playerImage: {fileID: 5133726208447570936, guid: 0b762d78c80dfb497b3ca63a1a9f5a57, type: 3}
+  type: 1
+  powerImage: {fileID: 21300000, guid: 01e2af10a1d8728b285323c031180660, type: 3}

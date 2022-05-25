@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a79b8d4190bd04a9cc694a94ecaad2, type: 3}
+  m_Name: FGuard
+  m_EditorClassIdentifier: 
+  audioStates:
+  - name: Idle
+    clips: []
+    volume: 0
+    pitch: 1
+    loop: 0
+  - name: Walk
+    clips:
+    - {fileID: 8300000, guid: 515bdf68d74af96449659e45b5476ed3, type: 3}
+    - {fileID: 8300000, guid: 57cba8f1e20b1024f975d2150646285c, type: 3}
+    - {fileID: 8300000, guid: 121be23e3a4281a4088fbf9afb3c11b8, type: 3}
+    - {fileID: 8300000, guid: 0261481b5ff68e042891c721a6fb3117, type: 3}
+    - {fileID: 8300000, guid: 9c24bd0890afda44992654622c3f260c, type: 3}
+    - {fileID: 8300000, guid: 2b2bfa0231393154abf42146720c304f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+  - name: Run
+    clips:
+    - {fileID: 8300000, guid: 4c1d2630b8e43c245ae438c6962edb74, type: 3}
+    - {fileID: 8300000, guid: 9b854d33138d88043b38559d9fd078e6, type: 3}
+    - {fileID: 8300000, guid: 8c7e18dc14daed74aacdcec892ad23e9, type: 3}
+    - {fileID: 8300000, guid: 8349b12d0d0e00e41a90d08aa2dd6f22, type: 3}
+    - {fileID: 8300000, guid: 37e29f3f42b9c8441bf95de0cb89718a, type: 3}
+    - {fileID: 8300000, guid: 49ae6dd4881818444974d5b33403eede, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+  - name: Fall
+    clips:
+    - {fileID: 8300000, guid: 6aac83516b847c04bbea193860ffe4a9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Stun
+    clips:
+    - {fileID: 8300000, guid: 6952bb34100a1e24d9efa41de8802da5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Ah
+    clips:
+    - {fileID: 8300000, guid: a8bbfcd32efbab24fbf41f47a414d3dc, type: 3}
+    - {fileID: 8300000, guid: 4c77f4d955104114f85fde135cc5f32f, type: 3}
+    - {fileID: 8300000, guid: aa89b41ab5e817c4fad0ba2c83665548, type: 3}
+    - {fileID: 8300000, guid: f50dd8d2be5af9647aa89acbf8954695, type: 3}
+    - {fileID: 8300000, guid: 7cd1ba7d270537e409afd9673c4ce78b, type: 3}
+    - {fileID: 8300000, guid: 904ed04f3e9cd034a943db1e04873c76, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Whistle
+    clips:
+    - {fileID: 8300000, guid: c04263c249e55b243be2d13ddb676c45, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1

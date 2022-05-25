@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a79b8d4190bd04a9cc694a94ecaad2, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  audioStates:
+  - name: Idle
+    clips: []
+    volume: 0
+    pitch: 1
+    loop: 0
+  - name: Walk
+    clips:
+    - {fileID: 8300000, guid: 9e95217d691723b4883f9ede4d12f88e, type: 3}
+    - {fileID: 8300000, guid: 7efb705a3d8a89e4180a7c8e78a44551, type: 3}
+    - {fileID: 8300000, guid: 6df3678aa10824341bb5edb09d80e57f, type: 3}
+    - {fileID: 8300000, guid: 99fbd6509481f4647abe399ae4c7f308, type: 3}
+    volume: 0.2
+    pitch: 2
+    loop: 1
+  - name: Run
+    clips:
+    - {fileID: 8300000, guid: a4cf328b9fe7e1745ae5513ba94c6007, type: 3}
+    - {fileID: 8300000, guid: 199cd3a25737bfc4d8d962eadcf0479d, type: 3}
+    - {fileID: 8300000, guid: 1eaa18c0f64afe44e95dd55870d3e30d, type: 3}
+    - {fileID: 8300000, guid: c05ea5e9e738d4f469efdef43cdf75a1, type: 3}
+    - {fileID: 8300000, guid: 09743bc7d0748be47987e69478fc43f8, type: 3}
+    - {fileID: 8300000, guid: a44de83e3c3da2c45be28e2fd25dd3ff, type: 3}
+    volume: 0.3
+    pitch: 1.35
+    loop: 1
+  - name: Crounch
+    clips:
+    - {fileID: 8300000, guid: f59b041add48a8848b2afeefde3df7e9, type: 3}
+    - {fileID: 8300000, guid: ae7dd4c5edd03e64ebe9291801097f9c, type: 3}
+    - {fileID: 8300000, guid: 0184fb87e103d4c40a49f79a9a5c5563, type: 3}
+    - {fileID: 8300000, guid: 756ddbc21c67f59458371a8cea0175c9, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+  - name: PaintSpill
+    clips:
+    - {fileID: 8300000, guid: 6952bb34100a1e24d9efa41de8802da5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Storage
+    clips:
+    - {fileID: 8300000, guid: 8f73646a133fb4f46b1e5d8eb5bab985, type: 3}
+    - {fileID: 8300000, guid: 1dad11d62718b3f42be5789677d91d6c, type: 3}
+    - {fileID: 8300000, guid: dd25a425617e0c24faffc5a477ce6c3f, type: 3}
+    - {fileID: 8300000, guid: 21c6bc6e1ef28b54da61127c335927ff, type: 3}
+    - {fileID: 8300000, guid: 1fc2e6f8c626d0f41885f5fa1658f724, type: 3}
+    - {fileID: 8300000, guid: 7da432d5ec1be6f47b142821b0d0a7dc, type: 3}
+    - {fileID: 8300000, guid: 5efcc281851cdad4588835a5b7c39cd0, type: 3}
+    - {fileID: 8300000, guid: d9da51fb789c67e4ea54a1f59193b2b0, type: 3}
+    - {fileID: 8300000, guid: 77b3f534459ba824e879c6f8ec9324af, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Refill
+    clips:
+    - {fileID: 8300000, guid: 40ba631fc235afa4c874e2720bb33f3c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Error
+    clips:
+    - {fileID: 8300000, guid: c25ce8d324768c3469724bde7f74faea, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Locker
+    clips:
+    - {fileID: 8300000, guid: 5c7b99b1b5beb674facf41a5899c4eb5, type: 3}
+    - {fileID: 8300000, guid: 02f4b8668d9bc4d49920558026ead5b5, type: 3}
+    - {fileID: 8300000, guid: 13ff68c5ab7522841a208c606cae7f46, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Paper
+    clips:
+    - {fileID: 8300000, guid: 9040b1a1707706c41b1c78a1d2c6f745, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Hacking
+    clips:
+    - {fileID: 8300000, guid: 006a70ac1449d9c4bb4b1fb36adbc27a, type: 3}
+    - {fileID: 8300000, guid: d889984586df4c44b9b1611b28285369, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+  - name: Ping
+    clips:
+    - {fileID: 8300000, guid: f8ad911d9c63c8a45926033b0f5844e6, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Flash
+    clips:
+    - {fileID: 8300000, guid: 03785263713f84641a9c29a559ff742e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0

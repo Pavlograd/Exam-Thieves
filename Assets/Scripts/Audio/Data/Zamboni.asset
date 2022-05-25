@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a79b8d4190bd04a9cc694a94ecaad2, type: 3}
+  m_Name: Zamboni
+  m_EditorClassIdentifier: 
+  audioStates:
+  - name: In
+    clips:
+    - {fileID: 8300000, guid: 564907d726c39fe43b80300ef73d5b3a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Out
+    clips:
+    - {fileID: 8300000, guid: 1bade91ee56ddb04f8ac6a52326b17ab, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Loop
+    clips:
+    - {fileID: 8300000, guid: 43a88ad6c6bfd914192b4103ce71a48a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+  - name: Idle
+    clips:
+    - {fileID: 8300000, guid: 43a88ad6c6bfd914192b4103ce71a48a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1

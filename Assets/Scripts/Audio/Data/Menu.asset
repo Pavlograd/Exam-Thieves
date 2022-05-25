@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a79b8d4190bd04a9cc694a94ecaad2, type: 3}
+  m_Name: Menu
+  m_EditorClassIdentifier: 
+  audioStates:
+  - name: Back
+    clips:
+    - {fileID: 8300000, guid: c25ce8d324768c3469724bde7f74faea, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Navigate
+    clips:
+    - {fileID: 8300000, guid: 7cab24fb53be0c54db531646ff7831bd, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Pause
+    clips:
+    - {fileID: 8300000, guid: d0c6aeabcccb8494198d92cdbc04a8ce, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Select
+    clips:
+    - {fileID: 8300000, guid: 40ba631fc235afa4c874e2720bb33f3c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Idle
+    clips: []
+    volume: 0
+    pitch: 1
+    loop: 0
